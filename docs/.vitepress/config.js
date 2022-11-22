@@ -24,7 +24,7 @@ export default {
     ],
     // Social Icons
     socialLinks: [
-      { icon: "github", link: "github.com/biodasturchi" },
+      { icon: "github", link: "https://github.com/biodasturchi" },
       { icon: "twitter", link: "https://twitter.com/ilosrim" },
       { icon: "discord", link: "https://discord.com/ilosrim" },
       // {

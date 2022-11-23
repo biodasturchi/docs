@@ -531,11 +531,11 @@ In this tutorial, you've set-up a full-fledged documentation site and customized
 
 ## Resources
 
-- [Live Demo](https://adocs.vercel.app)
-- [GitHub Repo](https://github.com/Evavic44/adocs)
+- [Live Demo](https://docs-bio.vercel.app/)
+- [GitHub Repo](https://github.com/biodasturchi/docs)
 
 <hr>
 
 If you are an open source ardent like myself or you enjoy hearing about such cool projects, do follow me on my socials so you don't miss my next post. Cheers. 🍷
 
-[GitHub](https://github.com/evavic44) [Twitter](https://twitter/.com/victorekea) [Blog](https://eke.hashnode.dev) [Portfolio](https://victoreke.com)
+[GitHub](https://github.com/evavic44) - [Twitter](https://twitter/.com/victorekea) - [Blog](https://eke.hashnode.dev) - [Portfolio](https://victoreke.com)

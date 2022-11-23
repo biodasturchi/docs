@@ -531,8 +531,8 @@ In this tutorial, you've set-up a full-fledged documentation site and customized
 
 ## Resources
 
-- [Live Demo](https://adocs.vercel.app)
-- [GitHub Repo](https://github.com/Evavic44/adocs)
+- [Live Demo](https://docs-bio.vercel.app/)
+- [GitHub Repo](https://github.com/biodasturchi/docs)
 
 <hr>
 

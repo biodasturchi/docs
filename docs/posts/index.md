@@ -18,7 +18,7 @@ Ushbu bo'limda bioinformatika va dasturlash bo'yicha maqolalar joylashtirilib bo
     <h6>Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari</h6>
     <a href="./bio/2022-11-25-docking-on-ca-complex">Read More</a>
   </div>
-  <img width="200px" height="150px" src="../public/images/dev/viteblog.png" />
+  <img width="200px" height="150px" src="../public/images/bio/2022-11-25-complex-2.png" />
 </div>
 
 ## Programming

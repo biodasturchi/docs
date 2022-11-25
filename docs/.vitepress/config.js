@@ -16,9 +16,7 @@ export default {
         // Dropdown Menu
         text: "Changes",
         items: [
-          { text: "v0.0.1", link: "/item-1" },
-          { text: "v0.0.2", link: "/item-2" },
-          { text: "v0.0.3", link: "/item-3" },
+          { text: "v1.0.0", link: "https://github.com/biodasturchi/docs/releases/tag/v1.0.0" },
         ],
       },
     ],

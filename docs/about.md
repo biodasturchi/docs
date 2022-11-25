@@ -1,21 +1,44 @@
-# About
+# About page
 
-Welcome to the about page.
+**My name is Mirsoli a.k.a [ilosrim](https://twitter.com/ilosrim)**
+I'm a ***software engineer & bioinformatic***
 
-This markdown supports html elements like the `p` tag coupled with inline styles
+## Skills
+- JavaScript (ES6), Typescript, Python, R, Bash script
+- React JS, Vue JS, Fresh
+- HTML5, CSS3, SASS, SCSS
+- Node JS, Deno
+- Material UI, AntDesign, Tailwind CSS, Bootstrap/Reactstrap
 
-<p style="color: var(--vp-c-brand-dark); border: 1px solid var(--vp-c-brand-dark); border-radius:5px; padding: 1rem;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+## Tools
+- VS Code, Micro, Vim
+- Autodock 4, Autodock Vina, PyMol, Discovery Studio, PyRx
+- Figma, Adobe Photoshop, Notion, MO Word, MO Exel
+- Chrome, Firefox, Edge
 
-Even satire code snippets with syntax highlighting are also supported. 😅
+## About
+A programmer in the field of bioinformatics as well as the production of frontend web and telegram bots has +2 years of experience. Creator of e-commerce, single-page and multi-page, as well as admin panel websites. Specializes in project implementation and management. A curious programmer eager to learn new knowledge;)
 
-```js
-const lang = prompt("What is your favorite programming language?");
 
-(lang === "JavaScript") | (lang === "javascript") | (lang === "js")
-  ? alert("JavaScript to the world! 🚀🟡")
-  : alert(`We don't permit such languages here 💩`);
-```
-
-Of course, images are not left out.
-
-<!-- <img src="/logo.svg" alt="adocs logo" height={50}> -->
+##### Links
+<a href="mailto:ilosrim@yahoo.com" target="_blank">
+   <img align="left" style="color:white" alt="ilosrim.com" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/gmail.svg" />
+</a>
+<a href="https://ilosrim.uz" target="_blank">
+   <img align="left" style="margin-left: 15px; color: #fff;" alt="ilosrim.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />
+</a>
+<a href="https://linkedin.com/in/ilosrim" target="_blank">
+   <img align="left" style="margin-left: 15px; color: #fff;" alt="ilosrim's linkedin profile" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/linkedin.svg" />
+</a>
+<a href="https://twitter.com/ilosrim" target="_blank">
+   <img align="left" style="margin-left: 15px; color: #fff;" alt="ilosrim's twitter profile" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/twitter.svg" />
+</a>
+<a href="https://t.me/ilosrim" target="_blank">
+   <img align="left" style="margin-left: 15px; color: #fff;" alt="ilosrim's telegram profile" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/telegram.svg" />
+</a>
+<a href="https://instagram.com/ilosrim" target="_blank">
+   <img align="left" style="margin-left: 15px; color: #fff;" alt="ilosrim's twitter profile" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/instagram.svg" />
+</a>
+<a href="https://dev.to/ilosrim" target="_blank">
+   <img align="left" style="margin-left: 15px; color: #fff;" alt="ilosrim's dev-dot-to profile" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/dev-dot-to.svg" />
+</a>

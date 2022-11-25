@@ -4,17 +4,17 @@ layout: home
 # Hero section
 hero:
   name: Biodasturchi
-  text: Static docs template built with VitePress.
+  text: Biologiya ichra informatika.
   image:
     src: /logo.svg
     alt: Biodasturchi logo
-  tagline: A free to use template for creating docs for your projects
+  tagline: Bioinformatika va dasturlash yo'nalishida yangiliklar joylab boruvchi web sayt
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide
+      text: Boshlash
+      link: /posts/index
     - theme: alt
-      text: View on GitHub
+      text: GitHub
       link: https://github.com/biodasturchi
 
 # Features section

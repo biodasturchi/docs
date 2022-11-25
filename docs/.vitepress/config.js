@@ -8,10 +8,10 @@ export default {
     siteTitle: "Biodasturchi",
     // Navbar Link
     nav: [
+      { text: "Home", link: "/"},
       { text: "Posts", link: "/posts/index.md" },
       { text: "About", link: "/about" },
       { text: "Contact", link: "/contact" },
-      { text: "Guide", link: "/guide" },
       {
         // Dropdown Menu
         text: "Changes",
@@ -44,22 +44,22 @@ export default {
           { text: "Getting Started", link: "/" },
         ],
       },
-      {
-        text: "Section B",
-        collapsible: false,
-        items: [
-          { text: "Introduction", link: "/" },
-          { text: "Getting Started", link: "/" },
-        ],
-      },
-      {
-        text: "Section C",
-        collapsible: true,
-        items: [
-          { text: "Introduction", link: "/" },
-          { text: "Getting Started", link: "/" },
-        ],
-      },
+      // {
+      //   text: "Section B",
+      //   collapsible: true,
+      //   items: [
+      //     { text: "Introduction", link: "/" },
+      //     { text: "Getting Started", link: "/" },
+      //   ],
+      // },
+      // {
+      //   text: "Section C",
+      //   collapsible: true,
+      //   items: [
+      //     { text: "Introduction", link: "/" },
+      //     { text: "Getting Started", link: "/" },
+      //   ],
+      // },
     ],
     footer: {
       message: "Released under the MIT License.",

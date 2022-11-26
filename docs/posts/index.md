@@ -31,7 +31,7 @@ Ushbu bo'limda bioinformatika va dasturlash bo'yicha maqolalar joylashtirilib bo
   padding: 1rem; 
   margin-top: 1rem;">
   <div>
-    <h6>How to build modern docs with vitepress</h6>
+    <h6>How to build modern docs with vitepress | Full text tutorial</h6>
     <a href="./dev/how-to-build-modern-docs-with-vitepress">Read More</a>
   </div>
   <img width="200px" height="150px" src="../public/images/dev/viteblog.png" />
@@ -45,7 +45,7 @@ Ushbu bo'limda bioinformatika va dasturlash bo'yicha maqolalar joylashtirilib bo
   padding: 1rem; 
   margin-top: 1rem;">
   <div>
-    <h6>Creating a Markdown Blog with NextJS</h6>
+    <h6>Creating a Markdown Blog with NextJS | Full text tutorial</h6>
     <a href="./dev/creating-markdown-blog-with-nextjs">Read More</a>
   </div>
   <img width="200px" height="150px" src="../public/images/dev/next-markdown.png" />

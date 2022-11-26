@@ -1,8 +1,8 @@
 <template>
-  <div class="card">
+  <div id="app" class="card">
     <div>
-      <h6></h6>
-      <a href="#"></a>
+      <h6>Title</h6>
+      <a href="#">Read More</a>
     </div>
     <div v-for="item in items" :key="item.id">
       <img class="list-complete-img" :src="getImgUrl(item.src)" />

@@ -1,10 +1,5 @@
 # Posts section
 
-<!-- :::info
-Articles on bioinformatics and programming are posted in this section. ||
-Ushbu bo'limda bioinformatika va dasturlash bo'yicha maqolalar joylashtirilib boriladi.
-::: -->
-
 ## Bioinformatics
 
 <div style="

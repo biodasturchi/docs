@@ -8,7 +8,7 @@ date: 11-25-2022
 # {{ $frontmatter.title }}
 Published: {{ $frontmatter.date }}
 
-## Why Do you want a markdown blog
+## Why Do you want a markdown blog?
 
 - Markdown makes it much easier to express formatting and focus on writing
 - Updating your blog means committing to github, yay for your heat map

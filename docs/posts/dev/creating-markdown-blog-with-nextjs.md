@@ -1,8 +1,12 @@
-<!-- ---
-sidebar: false
---- -->
+---
+title: Creating markdown blog with next js
+date: 11-25-2022
+---
 
 ![banner](../../public/images/dev/nextjs-markdown2.png)
+
+# {{ $frontmatter.title }}
+Published: {{ $frontmatter.date }}
 
 ## Why Do you want a markdown blog
 

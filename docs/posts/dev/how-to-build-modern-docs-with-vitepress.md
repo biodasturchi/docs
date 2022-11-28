@@ -1,10 +1,12 @@
-<!-- ---
-sidebar: false
---- -->
+---
+title: How to build ,odern docs with vitepress
+date: 11-22-2022
+---
 
 ![banner](../../public/images/dev/viteblog.png)
 
-# How to build modern docs with VitePress
+# {{ $frontmatter.title }}
+Published: {{ $frontmatter.date }}
 
 ## Definition
 

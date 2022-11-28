@@ -1,15 +1,14 @@
 ---
-title: Creating markdown blog with next js
+title: Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.
 date: 11-25-2022
 ---
-
 
 ![banner](../../public/images/bio/2022-11-25-complex-2.png)
 
 # {{ $frontmatter.title }}
 Published: {{ $frontmatter.date }}
 
-## Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.
+## Kirish
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra et ultrices neque ornare aenean euismod elementum. Gravida cum sociis natoque penatibus et. Gravida cum sociis natoque penatibus et magnis dis parturient montes. Fringilla est ullamcorper eget nulla facilisi. Sapien et ligula ullamcorper malesuada proin libero nunc consequat. Parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer. Venenatis cras sed felis eget velit aliquet sagittis. Elementum integer enim neque volutpat ac tincidunt vitae. Et molestie ac feugiat sed. Aliquam purus sit amet luctus. Diam sit amet nisl suscipit adipiscing. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.
 

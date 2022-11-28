@@ -1,10 +1,13 @@
-<!-- ---
-sidebar: false
-date: 2022-11-25
---- -->
+---
+title: Creating markdown blog with next js
+date: 11-25-2022
+---
 
 
 ![banner](../../public/images/bio/2022-11-25-complex-2.png)
+
+# {{ $frontmatter.title }}
+Published: {{ $frontmatter.date }}
 
 # Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.
 

@@ -8,13 +8,24 @@
 </script>
 
 <!-- <DevCard /> -->
-
-<div class="card">
-  <div>
-    <h6>Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari</h6>
-    <a href="./bio/2022-11-25-docking-on-ca-complex">Read More</a>
+<div class="container">
+  <!-- 1 -->
+  <div class="card">
+    <div>
+      <h6>Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari</h6>
+      <a href="./bio/2022-11-25-docking-on-ca-complex">Read More</a>
+    </div>
+    <img class="img" src="../public/images/bio/2022-11-25-complex-2.png" />
   </div>
-  <img class="img" src="../public/images/bio/2022-11-25-complex-2.png" />
+
+  <!-- 2 -->
+  <div class="card">
+    <div>
+      <h6>Ligand docking and binding site analysis with pymol and autodock/vina</h6>
+      <a href="./bio/2022-11-29-ligand-docking-and-binding-site-analysis">Read More</a>
+    </div>
+    <img class="img" src="../public/images/bio/2022-11-29-banner.png" />
+  </div>
 </div>
 
 ## Programming

@@ -55,6 +55,7 @@ function sidebarPostsBio() {
       text: 'Posts',
       items: [
         { text: 'Cav1.1 kompleks kanaliga', link: '/posts/bio/2022-11-25-docking-on-ca-complex' },
+        { text: 'Ligand docking and binding site analysis', link: '/posts/bio/2022-11-29-ligand-docking-and-binding-site-analysis' },
       ]
     },
     {

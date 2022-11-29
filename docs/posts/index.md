@@ -22,9 +22,9 @@
   <div class="card">
     <div>
       <h6>Ligand docking and binding site analysis with pymol and autodock/vina</h6>
-      <a href="./bio/11-29-2022-ligand-docking-and-binding-site-analysis">Read More</a>
+      <a href="./bio/2022-11-29-ligand-docking-and-binding-site-analysis">Read More</a>
     </div>
-    <img class="img" src="../public/images/bio/2022-11-25-complex-2.png" />
+    <img class="img" src="../public/images/bio/2022-11-29-banner.png" />
   </div>
 </div>
 

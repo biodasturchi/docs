@@ -4,10 +4,14 @@ author: Mirsoli Mirsultonov
 date: 11-29-2022
 ---
 
-![banner](../../public/images/bio/2022-11-25-complex-2.png)
+![banner](../../public/images/bio/2022-11-29-banner.png)
 
 # {{ $frontmatter.title }}
-Published: {{ $frontmatter.date }}
+
+<div style="width:100%; display:flex; justify-content: space-between;">
+  <p>{{ $frontmatter.author }}</p>
+  <p>Published: {{ $frontmatter.date }}</p>
+</div>
 
 ## Abstract
 Docking of various therapeutically important chemical entities to the specific target sites offers a meaningful strategy
@@ -85,7 +89,93 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   tools (freely available for non- commercial software for Autodocking).
   http://mgltools.scripps.edu/downloads
   3(A). Preparation of Pdbqt file for protein
-  Click on the file area to open the protein Pdb file created in the previous step as 4FQH_1.pdb at the desktop.
+  Click on the file area to open the protein Pdb file created in the previous step as 2ZOX_1.pdb at the desktop.
   Now click to select the selection level to atom.
   Click to edit Hydrogen and select polar only.
   Edit again to compute charges to select kollmann charges.
+
+  ![image](../../public/images/bio/2022-11-29-ad-protein.png)
+  <sup>Fig. 8: Showing Editing of H-Bonds.</sup>
+
+  ![image](../../public/images/bio/2022-11-29-ad-protein-add-hydrogen.png)
+  <sup>Fig. 9: Showing Editing of H Atoms Polar Only.</sup>
+
+  Now click on the grid to choose macrolmolecule, prepare grid box and cover whole molecule in order to prepare it for
+  ligand binding (blind docking as one doesn’t know the actual binding site so in order to know the binding site we will
+  cover up the whole molecule).
+
+  ![image](../../public/images/bio/2022-11-29-ad-gridbox.png)
+  <sup>Fig. 9: Shows the Grid Box Over the Molecule to Prepare It for Docking.</sup>
+
+  Now close it as ‘close saving current’.
+  3(B). Preparing PDBQT file for ligand
+  Open the file select ligand and then go to torsion tree to detect the root.
+
+  ![image](../../public/images/bio/2022-11-29-ad-lig-root.png)
+  <sup>Fig. 10: Shows Detection of Root.</sup>
+
+  ![image](../../public/images/bio/2022-11-29-ad-lig-added-root.png)
+  <sup>Fig. 11: Shows Root of the Ligand.</sup>
+
+  Now select ligand once more to detect torsion tree and to select number of torsions (that would be left to default) and
+  save the output as glucose6-phosphate.pdbqt.
+
+  ![image](../../public/images/bio/2022-11-29-ad-torsion-tree.png)
+  <sup>Fig. 12: Shows the Torsion Tree.</sup>
+
+  ![image](../../public/images/bio/2022-11-29-ad-aoutput-lig.png)
+  <sup>Fig. 13: Show the Saving of File.</sup>
+
+  Now prepare a text file providing all the details about the pdbqt files of protein and its ligand and grid box details.
+
+  ![image](../../public/images/bio/2022-11-29-vina-config-file.png)
+
+  Copy the text file and pdbqt files of both the molecules prepared in the folder where the Vina is installed in the C drive.
+
+* 2.4. Docking study using auto-dock vina
+  Give command to PC and run as administrator and give the path of the folder where you placed your prepared files in
+  the following manner.
+  (cd..)cd ..
+  (cd)cd  ..copy the path from the address and remove the duplication of C drive.
+  Now give the command as given below.
+  (cd)cd  ………………….(address)vina>vina.vina.exe -- config conf.txt  --
+  log log.txt
+
+  ![image](../../public/images/bio/2022-11-29-vina-running.png)
+  <sup>Fig. 15: Showing the Path and Command to Auto-Dock Vina.</sup>
+
+  ![image](../../public/images/bio/2022-11-29-vina-res.png)
+  <sup>Fig. 16: Show the Docking Results Obtained by Vina.</sup>
+
+
+* 2.5. Analysis of molecular docking with pymol visualizer to have information about the
+  various conformations of the ligand on the protein.
+  <p>A</p>
+
+  ![image](../../public/images/bio/2022-11-29-pymol1.png)
+
+  <p>B</p>
+  
+  ![image](../../public/images/bio/2022-11-29-pymol2.png)
+
+  <p>C</p>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/_L-sd8SmTfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 3. Conclusion
+Auto-Dock Vina is a popular non-commercial docking program that helps in docking of ligand to its specific receptor at
+a faster speed (accurate and computationally fast). In the present article, we have tried to decipher docking process in an easier and user-friendly way. Our protocol provides a detailed outline and advice for use of Auto-Dock tool to analyze interaction complexes using computational docking. The example of a docking experiment between Glucose 6
+phosphate isomerase (an enzyme) its ligand glucose six phosphates using Auto-Dock 4.2 Vina has been used for better
+understanding and execution of the program. The approach offers simple and user friendly strategy to study
+drug/ligand-receptor interaction.
+
+## 4. Acknowledgements
+We acknowledge Prof. M Owais, IBU, and AMU for providing the lab facility in carrying out the study. AA is highly
+thankful to UGC for providing the financial assistance in terms of postdoctoral fellowship (DSKPDF).
+
+## References
+- [1] Muegge I and Rarey M. Reviews in Computational Chemistry. John Wiley & Sons, Inc., (2001), pp 1-60.
+http://dx.doi.org/10.1002/0471224413.ch1.
+- [2] Holloway KM et al., A priori prediction of HIV I protease inhibitors employing energy minimization in the active site. J Med Chem Vol 38 (1995), pp 305-317. http://dx.doi.org/10.1021/jm00002a012.
+- [3] Vieth M, Cummins DJ. DoMCoSAR: a novel approach for establishing the docking mode that is consistent with the structure-activity relationship. Application to HIV-1 protease inhibitors and VEGF receptor tyrosine kinase inhibitors. J Med Chem. Vol.43, No.16, (2000), pp 3020-3032. http://dx.doi.org/10.1021/jm990609e
+- [4] Gilbert D. Bioinformatics software resources. Brief Bioinform. Volume 3, (2004), pp 300-304. Review http://dx.doi.org/10.1093/bib/5.3.300.
+- [5] Lazarova M. Virtual screening models, methods and software systems. International Scientific Conference Computer Science, (2008), pp 55-60.

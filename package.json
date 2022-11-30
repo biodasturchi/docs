@@ -8,8 +8,8 @@
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["bioinformatics", "programming", "blog", "post"],
+  "author": "Biodasturchi",
   "license": "ISC",
   "dependencies": {
     "vitepress": "^1.0.0-alpha.29",

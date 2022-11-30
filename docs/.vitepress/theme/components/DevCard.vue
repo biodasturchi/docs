@@ -42,6 +42,10 @@ export default {
   border-radius:5px; 
   padding: 1rem; 
   margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+.card:hover {
+  border-color: var(--vp-c-brand-light);
 }
 .img {
     width: 200px;

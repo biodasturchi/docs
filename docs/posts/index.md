@@ -1,61 +1,39 @@
+<script setup>
+  import DevCard from '../.vitepress/theme/components/DevCard.vue';
+  import Pagination from '../.vitepress/theme/components/Pagination.vue';
+</script>
+
 # Posts section
 
 ## Bioinformatics
 
-
-<script setup>
-  import DevCard from '../components/DevCard.vue';
-</script>
-
-<!-- <DevCard /> -->
 <div class="container">
   <!-- 1 -->
-  <div class="card">
-    <div>
-      <h6>Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari</h6>
-      <a href="./bio/2022-11-25-docking-on-ca-complex">Read More</a>
-    </div>
-    <img class="img" src="../public/images/bio/2022-11-25-complex-2.png" />
-  </div>
+  <DevCard 
+    title="Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari" 
+    path="./bio/2022-11-25-docking-on-ca-complex" 
+    src="../public/images/bio/2022-11-25-complex-2.png" 
+  />
 
   <!-- 2 -->
-  <div class="card">
-    <div>
-      <h6>Ligand docking and binding site analysis with pymol and autodock/vina</h6>
-      <a href="./bio/2022-11-29-ligand-docking-and-binding-site-analysis">Read More</a>
-    </div>
-    <img class="img" src="../public/images/bio/2022-11-29-banner.png" />
-  </div>
+  <DevCard 
+    title="Ligand docking and binding site analysis with pymol and autodock/vina" 
+    path="./bio/2022-11-29-ligand-docking-and-binding-site-analysis" 
+    src="../public/images/bio/2022-11-29-banner.png" 
+  />
 </div>
 
 ## Programming
+<div>
+  <DevCard 
+    title="How to build modern docs with vitepress | Full text tutorial" 
+    path="./dev/how-to-build-modern-docs-with-vitepress" 
+    src="../public/images/dev/viteblog.png" 
+  />
 
-<div class="card">
-  <div>
-    <h6>How to build modern docs with vitepress | Full text tutorial</h6>
-    <a href="./dev/how-to-build-modern-docs-with-vitepress">Read More</a>
-  </div>
-  <img class="img" src="../public/images/dev/viteblog.png" />
+  <DevCard 
+    title="Creating a Markdown Blog with NextJS | Full text tutorial" 
+    path="./dev/creating-markdown-blog-with-nextjs" 
+    src="../public/images/dev/next-markdown.png" 
+  />
 </div>
-
-<div class="card">
-  <div>
-    <h6>Creating a Markdown Blog with NextJS | Full text tutorial</h6>
-    <a href="./dev/creating-markdown-blog-with-nextjs">Read More</a>
-  </div>
-  <img class="img" src="../public/images/dev/next-markdown.png" />
-</div>
-
-<style lang="css">
-  .card {
-    display: flex; 
-    justify-content: space-between; 
-    border: 1px solid var(--vp-c-brand-lighter); 
-    border-radius:5px; 
-    padding: 1rem; 
-    margin-top: 1rem;
-  }
-  .img {
-    width: 200px;
-  }
-</style>

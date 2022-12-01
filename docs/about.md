@@ -17,7 +17,7 @@ I'm a ***software engineer & bioinformatic***
 - Chrome, Firefox, Edge
 
 ## About
-A programmer in the field of bioinformatics as well as the production of frontend web and telegram bots has +2 years of experience. Creator of e-commerce, single-page and multi-page, as well as admin panel websites. Specializes in project implementation and management. A curious programmer eager to learn new knowledge;)
+I am a programmer, in the field of bioinformatics as well as the production of frontend web and telegram bots. I have two-years experience in the field. In addition, I'm a creator of e-commerce, single-page and multi-page, as well as admin panel websites.
 
 
 ##### Links

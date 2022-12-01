@@ -4,6 +4,6 @@
 
 <!-- <BlogCard /> -->
 
-# Posts section
+# Posts page
 
 <BlogCard />

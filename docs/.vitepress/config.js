@@ -44,6 +44,7 @@ function nav() {
       text: "Changes",
       items: [
         { text: "v1.0.0", link: "https://github.com/biodasturchi/docs/releases/tag/v1.0.0" },
+        { text: "v1.0.0", link: "https://github.com/biodasturchi/docs/releases/tag/v1.0.1" },
       ],
     },
   ]

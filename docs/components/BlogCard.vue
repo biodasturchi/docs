@@ -1,55 +1,86 @@
 <template>
-  <a :href="path">
-    <div class="box">
-      <div class="photo"></div>
+  <div class="card" v-for="(item, idx) in items" :key="idx">
+    <div class="cardHead">
+      <small>{{item.topic}}</small>
+      <h6>{{item.title}}</h6>
+      <a :href="item.path">Read More</a>
     </div>
-  </a>
+    <img class="img" :src="item.imgUrl" />
+  </div>
 </template>
+
 <script>
 export default {
-  props: {
-    title: String,
-    path: String,
-    src: String,
+  name: "DevCard",
+  data() {
+    return {
+      items: [
+        {
+          id: 0,
+          title: "Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari",
+          path: "./bio/2022-11-25-docking-on-ca-complex",
+          imgUrl: "https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-25/complex-2.png",
+          topic: "bio",
+        },
+        {
+          id: 1,
+          title: "Ligand docking and binding site analysis with pymol and autodock/vina",
+          path: "./bio/2022-11-29-ligand-docking-and-binding-site-analysis",
+          imgUrl: "https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/banner.png",
+          topic: "bio",
+        },
+        {
+          id: 2,
+          title: "How to build modern docs with vitepress | Full text tutorial",
+          path: "./dev/2022-11-22-how-to-build-modern-docs-with-vitepress",
+          imgUrl: "https://raw.githubusercontent.com/ilosrim/imgs/master/dev/viteblog.png",
+          topic: "dev",
+        },
+        {
+          id: 3,
+          title: "Creating a Markdown Blog with NextJS | Full text tutorial",
+          path: "./dev/2022-11-25-creating-markdown-blog-with-nextjs",
+          imgUrl: "https://raw.githubusercontent.com/ilosrim/imgs/master/dev/nextjs-markdown2.png",
+          topic: "dev",
+        },
+      ]
+    }
   },
+  getImageUrl(arg) {
+      var images = require.context('../public/images/', false, /\.png$/)
+      return images('./' + arg + ".png")
+    }
 }
 </script>
-<style lang="scss">
 
-$color_white: #fff;
-$color_prime: #5ad67d;
-$color_grey: #e2e2e2;
-$color_grey_dark: #a2a2a2;
-
-.box {
-  width: 100%;
-  height: 150px;
+<style lang="css" scoped>
+.card {
+  display: flex; 
+  justify-content: space-between; 
+  border: 1px solid var(--vp-c-brand-lighter); 
+  border-radius:5px; 
+  padding: 1rem; 
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+.cardHead {
   display: flex;
   flex-direction: column;
-  margin: 1rem auto;
-  box-shadow: 0 3px 7px -1px rgba(#000, .1);
-  margin-bottom: 1.6%;
-  background: $color_white;
-  line-height: 1.4;
-  font-family: sans-serif;
-  border-radius: 5px;
-  overflow: hidden;
-  z-index: 0;
-  &:hover {
-    .photo {
-      transform: scale(1.4) rotate(3deg);
-    }
-  }
-  .photo {
-    width: 150px;
-    height: 100%;
-    background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: all 0.3s ease;
-    transform: scale(1.3) rotate(3deg);
-  }
+  justify-content: space-between;
+}
+.card:hover {
+  border-color: var(--vp-c-brand-light);
+}
+.img {
+    width: 200px;
+}
+small {
+  color: #999999;
 }
 
+@media only screen and (max-width: 767px) {
+  .card {
+    flex-direction: column;
+  }
+}
 </style>

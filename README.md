@@ -36,7 +36,7 @@ docs/
 │       ├── index.js
 │       └── custom.css
 ├── components/
-|   └── DevCard.vue
+|   └── BlogCard.vue
 ├── posts/
 |   ├── bio/
 |   ├── dev/

@@ -19,33 +19,37 @@ export default {
           id: 0,
           title: "Cav1.1 kanaliga ligand sifatida cynaroside moddasining biriktirilish natijalari",
           path: "./bio/2022-11-25-docking-on-ca-complex",
-          imgUrl: "../public/images/bio/2022-11-25-complex-2.png",
+          imgUrl: "https://images2.imgbox.com/dd/e6/WGYYKkdP_o.png",
           topic: "bio",
         },
         {
           id: 0,
           title: "Ligand docking and binding site analysis with pymol and autodock/vina",
           path: "./bio/2022-11-29-ligand-docking-and-binding-site-analysis",
-          imgUrl: "../public/images/bio/2022-11-29-banner.png",
+          imgUrl: "https://images2.imgbox.com/af/90/boRPGGIV_o.png",
           topic: "bio",
         },
         {
           id: 0,
           title: "How to build modern docs with vitepress | Full text tutorial",
-          path: "./dev/how-to-build-modern-docs-with-vitepress",
-          imgUrl: "../public/images/dev/viteblog.png",
+          path: "./dev/2022-11-22-how-to-build-modern-docs-with-vitepress",
+          imgUrl: "https://thumbs2.imgbox.com/87/52/GMO61RHK_t.png",
           topic: "dev",
         },
         {
           id: 0,
           title: "Creating a Markdown Blog with NextJS | Full text tutorial",
-          path: "./dev/creating-markdown-blog-with-nextjs",
-          imgUrl: "../public/images/dev/next-markdown.png",
+          path: "./dev/2022-11-25-creating-markdown-blog-with-nextjs",
+          imgUrl: "https://thumbs2.imgbox.com/9e/18/dx5sxn3W_t.png",
           topic: "dev",
         },
       ]
     }
   },
+  getImageUrl(arg) {
+      var images = require.context('../public/images/', false, /\.png$/)
+      return images('./' + arg + ".png")
+    }
 }
 </script>
 
@@ -72,5 +76,11 @@ export default {
 }
 small {
   color: #999999;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    flex-direction: column;
+  }
 }
 </style>

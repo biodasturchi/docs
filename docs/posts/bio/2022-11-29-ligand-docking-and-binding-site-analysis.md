@@ -4,12 +4,12 @@ author: Mirsoli Mirsultonov
 date: 11-29-2022
 ---
 
-![banner](../../public/images/bio/2022-11-29-banner.png)
+![banner](https://images2.imgbox.com/af/90/boRPGGIV_o.png)
 
 # {{ $frontmatter.title }}
 
 <div style="width:100%; display:flex; justify-content: space-between;">
-  <p>{{ $frontmatter.author }}</p>
+  <p>Author: {{ $frontmatter.author }}</p>
   <p>Published: {{ $frontmatter.date }}</p>
 </div>
 
@@ -48,11 +48,11 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
 ## 2. Methods
 * 2.1 Retrieval of required protein files from major databases.
   - 2.1 1. (a) Retrieving protein.pdb files from major protein databases using following link. [https://www.rcsb.org/](https://www.rcsb.org/)
-    ![image](../../public//images//bio//2022-11-29-pdbhome.png)
+    ![image](https://images2.imgbox.com/c8/49/qLE3NTee_o.png)
     <sup>Fig. 1: Screenshot Showing the Home Page of the PDB (Protein Data Bank) on Computer Screen</sup>
 
     Enter the name of Protein or enzyme that will be used for docking studies (For example, Beta-Glucosidase or its pdb id 2ZOX).
-    ![image](../../public/images/bio/2022-11-29-pdb-id-2zox.png)
+    ![image](https://images2.imgbox.com/2f/9a/ZeYNsv4c_o.png)
     <sup>Fig. 2: RCSB Protein Data Bank Page Showing the Selection of Protein.</sup>
 
     Select ‘Download file from drop down list’.
@@ -62,26 +62,26 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
     Now, to cross check whether all the heteroatoms of chain A and B chain have been deleted, one can take help of the
     software discovery studio visualizer 3.5 (which can be downloaded freely from the given link. https://discover.3ds.com/discovery-studio-visualizer-download
 
-    ![image](../../public/images/bio/2022-11-29-dsv.png)
+    ![image](https://images2.imgbox.com/e4/9a/qZ0rHksX_o.png)
     <sup>Fig. 3: Screenshot of the Screen to Show Absence of Heteroatoms</sup>
 
 * 2.2. Retrieval of ligand molecules from different ligand databases: http://pubchem.ncbi.nlm.nih.gov/ or http://www.drugbank.ca/
   The above links can be used to select desired ligand/drug molecules. Alternatively, the structure of the ligand molecules
   can be drawn with the help of software available like chemdraw. However, it will be more convenient to download the
   file from the databank.
-  ![image](../../public/images/bio/2022-11-29-pubchem-rutin.png)
+  ![image](https://images2.imgbox.com/4f/0f/NLjzSxAU_o.png)
   <sup>Fig. 4: Showing Pubchem Home Page of Searched Molecules</sup>
 
   Click on 3D image and save 3D Sdf.
   Open it using discovery studio visualizer and save it as a protein data bank file.(pdb file) because the autodock software
   can only recognize files in pdb format.
-  ![image](../../public/images/bio/2022-11-29-ligand-sdf.png)
+  ![image](https://images2.imgbox.com/96/6a/jyOS4fUU_o.png)
   <sup>Fig. 5: Shows the 3D SDF File in 3D Conformation.</sup>
 
-  ![image](../../public/images/bio/2022-11-29-dsv-lig.png)
+  ![image](https://images2.imgbox.com/70/61/870Ipg7K_o.png)
   <sup>Fig. 6: Shows the SDF File in Discovery Studio Visualizer.</sup>
 
-  ![image](../../public/images/bio/2022-11-29-dsv-save-pdb.png)
+  ![image](https://images2.imgbox.com/5f/5e/Xr8AyWbU_o.png)
   <sup>Fig. 7: Shows the Saving of Ligand File as Pdb in DSV</sup>
   
 * 2.3. To prepare PDBQT format for target and ligand (protein.pdbqt,Ligand.pdbqt).
@@ -94,41 +94,41 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   Click to edit Hydrogen and select polar only.
   Edit again to compute charges to select kollmann charges.
 
-  ![image](../../public/images/bio/2022-11-29-ad-protein.png)
+  ![image](https://images2.imgbox.com/1e/2c/3EbxVFJN_o.png)
   <sup>Fig. 8: Showing Editing of H-Bonds.</sup>
 
-  ![image](../../public/images/bio/2022-11-29-ad-protein-add-hydrogen.png)
+  ![image](https://images2.imgbox.com/25/29/x33oDKgn_o.png)
   <sup>Fig. 9: Showing Editing of H Atoms Polar Only.</sup>
 
   Now click on the grid to choose macrolmolecule, prepare grid box and cover whole molecule in order to prepare it for
   ligand binding (blind docking as one doesn’t know the actual binding site so in order to know the binding site we will
   cover up the whole molecule).
 
-  ![image](../../public/images/bio/2022-11-29-ad-gridbox.png)
+  ![image](https://images2.imgbox.com/2c/43/ay1V1Gzn_o.png)
   <sup>Fig. 9: Shows the Grid Box Over the Molecule to Prepare It for Docking.</sup>
 
   Now close it as ‘close saving current’.
   3(B). Preparing PDBQT file for ligand
   Open the file select ligand and then go to torsion tree to detect the root.
 
-  ![image](../../public/images/bio/2022-11-29-ad-lig-root.png)
+  ![image](https://images2.imgbox.com/84/44/LObLcbJS_o.png)
   <sup>Fig. 10: Shows Detection of Root.</sup>
 
-  ![image](../../public/images/bio/2022-11-29-ad-lig-added-root.png)
+  ![image](https://images2.imgbox.com/cb/ea/oj14wLDb_o.png)
   <sup>Fig. 11: Shows Root of the Ligand.</sup>
 
   Now select ligand once more to detect torsion tree and to select number of torsions (that would be left to default) and
   save the output as glucose6-phosphate.pdbqt.
 
-  ![image](../../public/images/bio/2022-11-29-ad-torsion-tree.png)
+  ![image](https://images2.imgbox.com/ed/81/LP1Roh6m_o.png)
   <sup>Fig. 12: Shows the Torsion Tree.</sup>
 
-  ![image](../../public/images/bio/2022-11-29-ad-aoutput-lig.png)
+  ![image](https://images2.imgbox.com/67/a3/aG2ipb5i_o.png)
   <sup>Fig. 13: Show the Saving of File.</sup>
 
   Now prepare a text file providing all the details about the pdbqt files of protein and its ligand and grid box details.
 
-  ![image](../../public/images/bio/2022-11-29-vina-config-file.png)
+  ![image](https://images2.imgbox.com/44/cc/eZcmMANB_o.png)
 
   Copy the text file and pdbqt files of both the molecules prepared in the folder where the Vina is installed in the C drive.
 
@@ -141,10 +141,10 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   (cd)cd  ………………….(address)vina>vina.vina.exe -- config conf.txt  --
   log log.txt
 
-  ![image](../../public/images/bio/2022-11-29-vina-running.png)
+  ![image](https://images2.imgbox.com/8e/6b/vYCWp052_o.png)
   <sup>Fig. 15: Showing the Path and Command to Auto-Dock Vina.</sup>
 
-  ![image](../../public/images/bio/2022-11-29-vina-res.png)
+  ![image](https://images2.imgbox.com/2a/07/1MQSsUBW_o.png)
   <sup>Fig. 16: Show the Docking Results Obtained by Vina.</sup>
 
 
@@ -152,11 +152,11 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   various conformations of the ligand on the protein.
   <p>A</p>
 
-  ![image](../../public/images/bio/2022-11-29-pymol1.png)
+  ![image](https://images2.imgbox.com/97/37/TZ7YTkj8_o.png)
 
   <p>B</p>
   
-  ![image](../../public/images/bio/2022-11-29-pymol2.png)
+  ![image](https://images2.imgbox.com/af/90/boRPGGIV_o.png)
 
   <p>C</p>
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/_L-sd8SmTfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

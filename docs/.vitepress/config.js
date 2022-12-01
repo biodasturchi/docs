@@ -74,8 +74,8 @@ function sidebarPostsDev() {
     {
       text: 'Posts',
       items: [
-        { text: 'How to build modern docs with vitepress', link: '/posts/dev/how-to-build-modern-docs-with-vitepress' },
-        { text: 'Creating markdown blog with NextJS', link: '/posts/dev/creating-markdown-blog-with-nextjs' },
+        { text: 'How to build modern docs with vitepress', link: '/posts/dev/2022-11-22-how-to-build-modern-docs-with-vitepress' },
+        { text: 'Creating markdown blog with NextJS', link: '/posts/dev/2022-11-25-creating-markdown-blog-with-nextjs' },
       ]
     },
     {

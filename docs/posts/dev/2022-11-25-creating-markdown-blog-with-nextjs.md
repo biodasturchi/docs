@@ -1,12 +1,17 @@
 ---
 title: Creating markdown blog with next js
+author: Mirsoli Mirsultonov
 date: 11-25-2022
 ---
 
-![banner](../../public/images/dev/nextjs-markdown2.png)
+![banner](../../public/images/nextjs-markdown2.png)
 
 # {{ $frontmatter.title }}
-Published: {{ $frontmatter.date }}
+
+<div style="width:100%; display:flex; justify-content: space-between;">
+  <p>Author: {{ $frontmatter.author }}</p>
+  <p>Published: {{ $frontmatter.date }}</p>
+</div>
 
 ## Why Do you want a markdown blog?
 

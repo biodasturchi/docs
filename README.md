@@ -43,7 +43,7 @@ docs/
 |   └── index.md
 ├── public/
 │   ├── logo.svg
-│   └── logo-big.svg
+│   └── favicon.ico
 ├── about.md
 ├── contact.md
 ├── index.md

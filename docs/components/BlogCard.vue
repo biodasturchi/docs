@@ -46,10 +46,6 @@ export default {
       ]
     }
   },
-  getImageUrl(arg) {
-      var images = require.context('../public/images/', false, /\.png$/)
-      return images('./' + arg + ".png")
-    }
 }
 </script>
 

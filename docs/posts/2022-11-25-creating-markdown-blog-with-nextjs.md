@@ -4,7 +4,7 @@ author: Mirsoli Mirsultonov
 date: 11-25-2022
 ---
 
-![banner](../../public/images/nextjs-markdown2.png)
+![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png)
 
 # {{ $frontmatter.title }}
 

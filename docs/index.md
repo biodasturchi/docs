@@ -18,19 +18,19 @@ hero:
       link: https://github.com/biodasturchi
 
 # Features section
-features:
-  - icon: ⚡️
-    title: Biodasturchi, The DX that can't be beat
-    details: Lorem ipsum...
-  - icon: 🎉
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
-  - icon: 🔥
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon: 🎀
-    title: Stylish and cool
-    details: Lorem ipsum...
+# features:
+#   - icon: ⚡️
+#     title: Biodasturchi, The DX that can't be beat
+#     details: Lorem ipsum...
+#   - icon: 🎉
+#     title: Power of Vue meets Markdown
+#     details: Lorem ipsum...
+#   - icon: 🔥
+#     title: Simple and minimal, always
+#     details: Lorem ipsum...
+#   - icon: 🎀
+#     title: Stylish and cool
+#     details: Lorem ipsum...
 
 # Meta property
 head:

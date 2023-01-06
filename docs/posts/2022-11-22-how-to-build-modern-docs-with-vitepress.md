@@ -1,7 +1,7 @@
 ---
 title: How to build ,odern docs with vitepress
 author: Mirsoli Mirsultonov
-date: 11-22-2022
+date: 11/22/2022
 ---
 
 ![banner](https://user-images.githubusercontent.com/62628408/201538130-a1008969-06ae-4aad-9ea0-b77384d6bac1.png)

@@ -2,6 +2,7 @@
 export default {
   title: "Biodasturchi",
   description: "Biodasturchi web sahifasi",
+  lastUpdated: true,
 
   themeConfig: {
     lang: "en-US",

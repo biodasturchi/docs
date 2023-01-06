@@ -1,7 +1,7 @@
 ---
 title: Ligand docking and binding site analysis with pymol and autodock/vina
 author: Mirsoli Mirsultonov
-date: 11-29-2022
+date: 11/29/2022
 ---
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
@@ -14,6 +14,7 @@ date: 11-29-2022
 </div>
 
 ## Abstract
+
 Docking of various therapeutically important chemical entities to the specific target sites offers a meaningful strategy
 that may have tremendous scope in a drug design process. For a thorough understanding of the structural features that
 determine the strength of bonding between a ligand with its receptor, an insight to visualize binding geometries and
@@ -27,6 +28,7 @@ studies using AutoDock 4.2 program.
 <sup>_**Keywords:** Auto-Dock; Chemdraw; DSV (Discovery Studio Visualizer); PDB (Protein Data Bank) and Pubchem: PYMOL_</sup>
 
 ## 1. Introduction
+
 In the present era of technology advancement, various operations are performed with the help of computer to increase
 the reliability, productivity and most importantly the ease of the work. For example, in the field of computer-aided
 structure-based drug designing, molecular docking has been frequently used to predict the prominent and acknowledged
@@ -46,7 +48,9 @@ In the present study, we provide an easier protocol for the molecular docking pr
 method was substantiated by taking example of molecular docking of Glucose 6 phosphate isomerase with its ligand Dglucose 6 phosphates.
 
 ## 2. Methods
-* 2.1 Retrieval of required protein files from major databases.
+
+- 2.1 Retrieval of required protein files from major databases.
+
   - 2.1 1. (a) Retrieving protein.pdb files from major protein databases using following link. [https://www.rcsb.org/](https://www.rcsb.org/)
     ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pdbhome.png)
     <sup>Fig. 1: Screenshot Showing the Home Page of the PDB (Protein Data Bank) on Computer Screen</sup>
@@ -65,7 +69,7 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
     ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/dsv.png)
     <sup>Fig. 3: Screenshot of the Screen to Show Absence of Heteroatoms</sup>
 
-* 2.2. Retrieval of ligand molecules from different ligand databases: http://pubchem.ncbi.nlm.nih.gov/ or http://www.drugbank.ca/
+- 2.2. Retrieval of ligand molecules from different ligand databases: http://pubchem.ncbi.nlm.nih.gov/ or http://www.drugbank.ca/
   The above links can be used to select desired ligand/drug molecules. Alternatively, the structure of the ligand molecules
   can be drawn with the help of software available like chemdraw. However, it will be more convenient to download the
   file from the databank.
@@ -83,8 +87,8 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
 
   ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/dsv-save-pdb.png)
   <sup>Fig. 7: Shows the Saving of Ligand File as Pdb in DSV</sup>
-  
-* 2.3. To prepare PDBQT format for target and ligand (protein.pdbqt,Ligand.pdbqt).
+
+- 2.3. To prepare PDBQT format for target and ligand (protein.pdbqt,Ligand.pdbqt).
   The Pdbqt(s) of the protein and the ligand are prepared using the Autodock tools software downloaded from MGL m
   tools (freely available for non- commercial software for Autodocking).
   http://mgltools.scripps.edu/downloads
@@ -132,13 +136,13 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
 
   Copy the text file and pdbqt files of both the molecules prepared in the folder where the Vina is installed in the C drive.
 
-* 2.4. Docking study using auto-dock vina
+- 2.4. Docking study using auto-dock vina
   Give command to PC and run as administrator and give the path of the folder where you placed your prepared files in
   the following manner.
   (cd..)cd ..
-  (cd)cd  ..copy the path from the address and remove the duplication of C drive.
+  (cd)cd ..copy the path from the address and remove the duplication of C drive.
   Now give the command as given below.
-  (cd)cd  ………………….(address)vina>vina.vina.exe -- config conf.txt  --
+  (cd)cd ………………….(address)vina>vina.vina.exe -- config conf.txt --
   log log.txt
 
   ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/vina-running.png)
@@ -147,21 +151,21 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/vina-res.png)
   <sup>Fig. 16: Show the Docking Results Obtained by Vina.</sup>
 
-
-* 2.5. Analysis of molecular docking with pymol visualizer to have information about the
+- 2.5. Analysis of molecular docking with pymol visualizer to have information about the
   various conformations of the ligand on the protein.
   <p>A</p>
 
   ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol1.png)
 
   <p>B</p>
-  
+
   ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
 
   <p>C</p>
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/_L-sd8SmTfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 3. Conclusion
+
 Auto-Dock Vina is a popular non-commercial docking program that helps in docking of ligand to its specific receptor at
 a faster speed (accurate and computationally fast). In the present article, we have tried to decipher docking process in an easier and user-friendly way. Our protocol provides a detailed outline and advice for use of Auto-Dock tool to analyze interaction complexes using computational docking. The example of a docking experiment between Glucose 6
 phosphate isomerase (an enzyme) its ligand glucose six phosphates using Auto-Dock 4.2 Vina has been used for better
@@ -169,12 +173,14 @@ understanding and execution of the program. The approach offers simple and user 
 drug/ligand-receptor interaction.
 
 ## 4. Acknowledgements
+
 We acknowledge Prof. M Owais, IBU, and AMU for providing the lab facility in carrying out the study. AA is highly
 thankful to UGC for providing the financial assistance in terms of postdoctoral fellowship (DSKPDF).
 
 ## References
+
 - [1] Muegge I and Rarey M. Reviews in Computational Chemistry. John Wiley & Sons, Inc., (2001), pp 1-60.
-http://dx.doi.org/10.1002/0471224413.ch1.
+  http://dx.doi.org/10.1002/0471224413.ch1.
 - [2] Holloway KM et al., A priori prediction of HIV I protease inhibitors employing energy minimization in the active site. J Med Chem Vol 38 (1995), pp 305-317. http://dx.doi.org/10.1021/jm00002a012.
 - [3] Vieth M, Cummins DJ. DoMCoSAR: a novel approach for establishing the docking mode that is consistent with the structure-activity relationship. Application to HIV-1 protease inhibitors and VEGF receptor tyrosine kinase inhibitors. J Med Chem. Vol.43, No.16, (2000), pp 3020-3032. http://dx.doi.org/10.1021/jm990609e
 - [4] Gilbert D. Bioinformatics software resources. Brief Bioinform. Volume 3, (2004), pp 300-304. Review http://dx.doi.org/10.1093/bib/5.3.300.

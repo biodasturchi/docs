@@ -1,3 +1,8 @@
+---
+layout: doc
+lastUpdated: false
+---
+
 **My name is Mirsoli a.k.a [ilosrim](https://ilosrim.uz)**
 I'm a **_software engineer & bioinformatic_**
 

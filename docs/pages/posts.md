@@ -1,7 +1,7 @@
 ---
 layout: blog
 aside: false
-lastUpdated: true
+lastUpdated: false
 ---
 
 <BlogCard />

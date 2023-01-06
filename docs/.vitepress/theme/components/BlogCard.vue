@@ -24,7 +24,7 @@ export default {
           path: "/posts/2022-11-25-docking-on-ca-complex",
           imgUrl:
             "https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-25/complex-2.png",
-          topic: "#bio",
+          topic: "#bio #docking",
         },
         {
           id: 1,
@@ -33,7 +33,7 @@ export default {
           path: "/posts/2022-11-29-ligand-docking-and-binding-site-analysis",
           imgUrl:
             "https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/banner.png",
-          topic: "#bio",
+          topic: "#bio docking",
         },
         {
           id: 2,
@@ -41,7 +41,7 @@ export default {
           path: "/posts/2022-11-22-how-to-build-modern-docs-with-vitepress",
           imgUrl:
             "https://raw.githubusercontent.com/ilosrim/imgs/master/dev/viteblog.png",
-          topic: "#dev",
+          topic: "#dev vitepress #docwebsite",
         },
         {
           id: 3,
@@ -49,7 +49,7 @@ export default {
           path: "/posts/2022-11-25-creating-markdown-blog-with-nextjs",
           imgUrl:
             "https://raw.githubusercontent.com/ilosrim/imgs/master/dev/nextjs-markdown2.png",
-          topic: "#dev",
+          topic: "#dev #nextjs #markdown #blogwebsite",
         },
       ],
     };

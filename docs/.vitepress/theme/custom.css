@@ -21,11 +21,11 @@
     monospace;
 }
 
-[data-v-72cc4481] .image-src {
+.image-src {
   background: var(--vp-c-brand);
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 }
-.VPFeature[data-v-549c013f] {
+.VPFeature {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }

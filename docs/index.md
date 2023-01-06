@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Boshlash
-      link: /posts/index
+      link: /pages/posts
     - theme: alt
       text: GitHub
       link: https://github.com/biodasturchi

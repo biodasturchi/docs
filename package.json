@@ -17,6 +17,8 @@
   "author": "Biodasturchi",
   "license": "ISC",
   "dependencies": {
+    "globby": "^13.1.3",
+    "matter": "^0.2.0",
     "sass": "^1.56.1",
     "vitepress": "^1.0.0-alpha.29",
     "vue": "^3.2.45"

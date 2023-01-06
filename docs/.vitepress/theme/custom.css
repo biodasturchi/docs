@@ -2,12 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic);
 
 :root {
-  --vp-c-brand: #ff7340;
-  --vp-c-brand-light: #ff5719;
-  --vp-c-brand-lighter: #ff7340;
-  --vp-c-brand-lighter: rgba(255, 135, 23, 0.25);
-  --vp-c-brand-dark: #ff622d;
-  --vp-c-brand-darker: #e23c00;
+  --vp-c-brand: #379237;
+  --vp-c-brand-light: #82cd47;
+  --vp-c-brand-lighter: #379237;
+  --vp-c-brand-lighter: rgb(240, 255, 66, 0.25);
+  --vp-c-brand-dark: #54b435;
+  --vp-c-brand-darker: #f0ff42;
 
   --vp-c-sponsor: #fd1d7c;
 
@@ -19,4 +19,13 @@
   /* Code Snippet font */
   --vp-font-family-mono: "Space Mono", Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+[data-v-72cc4481] .image-src {
+  background: var(--vp-c-brand);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.VPFeature[data-v-549c013f] {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }

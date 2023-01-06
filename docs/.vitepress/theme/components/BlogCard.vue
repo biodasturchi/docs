@@ -1,11 +1,13 @@
 <template>
-  <div class="card" v-for="(item, idx) in items" :key="idx">
-    <div class="cardHead">
-      <small>{{ item.topic }}</small>
-      <h6>{{ item.title }}</h6>
-      <a :href="item.path">Read More</a>
-    </div>
-    <img class="img" :src="item.imgUrl" />
+  <div v-for="(item, idx) in items" :key="idx">
+    <a class="card" :href="item.path">
+      <div class="cardHead">
+        <small>{{ item.topic }}</small>
+        <h6>{{ item.title }}</h6>
+        <a class="readMore" :href="item.path">Read More</a>
+      </div>
+      <img class="img" :src="item.imgUrl" />
+    </a>
   </div>
 </template>
 
@@ -59,8 +61,8 @@ export default {
 .card {
   display: flex;
   justify-content: space-between;
-  border: 1px solid var(--vp-c-brand-lighter);
-  border-radius: 5px;
+  /* border-top: 1px solid var(--vp-c-brand-lighter); */
+  /* border-radius: 5px; */
   padding: 1rem;
   margin-top: 1rem;
   transition: all 0.3s ease;
@@ -72,6 +74,9 @@ export default {
 }
 .card:hover {
   border-color: var(--vp-c-brand-light);
+}
+.readMore {
+  margin-top: 1rem;
 }
 .img {
   width: 200px;

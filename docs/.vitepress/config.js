@@ -5,7 +5,7 @@ export default {
 
   themeConfig: {
     lang: "en-US",
-    logo: "/logo.svg",
+    // logo: "/logo.svg",
     title: "Biodasturchi",
     website: "https://github.com/biodasturchi/docs",
     // Navbar Link
@@ -20,6 +20,7 @@ export default {
       pattern: "https://github.com/biodasturchi/docs/blob/main/docs/:path",
       text: "Edit this page on GitHub",
     },
+    lastUpdate: true,
     // footer: {
     //   message: "Released under the MIT License.",
     //   copyright: "Copyright © 2022 ilosrim",
@@ -33,13 +34,13 @@ export default {
 
 function nav() {
   return [
-    { text: "Home", link: "/" },
-    { text: "Posts", link: "/pages/posts" },
-    { text: "About", link: "/pages/about" },
-    { text: "Contact", link: "/pages/contact" },
+    { text: "Uy", link: "/" },
+    { text: "Postlar", link: "/pages/posts" },
+    { text: "Haqida", link: "/pages/about" },
+    { text: "Aloqa", link: "/pages/contact" },
     {
       // Dropdown Menu
-      text: "Changes",
+      text: "O'zgarishlar",
       items: [
         {
           text: "v1.0.0",

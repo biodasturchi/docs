@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Maqolalar
-      link: /pages/posts
+      link: /pages/blog
     - theme: alt
       text: GitHub
       link: https://github.com/biodasturchi

@@ -1,17 +1,20 @@
 ---
 title: Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.
 author: Mirsoli Mirsultonov
-date: 11/25/2022
+date: 2022-06-03
+image: https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-25/complex-2.png
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+category: Bio
+tags:
+  - docking
+  - autodock
+  - discovery studio
+  - pymol
 ---
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-25/complex-2.png)
 
 # {{ $frontmatter.title }}
-
-<div style="width:100%; display:flex; justify-content: space-between;">
-  <p>Author: {{ $frontmatter.author }}</p>
-  <p>Published: {{ $frontmatter.date }}</p>
-</div>
 
 ## Kirish
 

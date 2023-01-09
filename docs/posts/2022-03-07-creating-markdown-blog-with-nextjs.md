@@ -1,17 +1,19 @@
 ---
 title: Creating markdown blog with next js
 author: Mirsoli Mirsultonov
-date: 11/25/2022
+date: 2022-03-07
+image: https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png
+description: Markdown makes it much easier to express formatting and focus on writing...
+category: Dev
+tags:
+  - nextjs
+  - markdown
+  - blog
 ---
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png)
 
 # {{ $frontmatter.title }}
-
-<div style="width:100%; display:flex; justify-content: space-between;">
-  <p>Author: {{ $frontmatter.author }}</p>
-  <p>Published: {{ $frontmatter.date }}</p>
-</div>
 
 ## Why Do you want a markdown blog?
 

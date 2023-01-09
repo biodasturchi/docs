@@ -1,17 +1,19 @@
 ---
-title: How to build ,odern docs with vitepress
+title: How to build modern docs with vitepress
 author: Mirsoli Mirsultonov
-date: 11-22-2022
+date: 2022-01-05
+image: https://user-images.githubusercontent.com/62628408/201538130-a1008969-06ae-4aad-9ea0-b77384d6bac1.png
+description: VitePress is a simple and performant static site generator built on top of Vite for creating docs in a matter of minutes...
+category: Dev
+tags:
+  - vitepress
+  - doc
+  - blog
 ---
 
 ![banner](https://user-images.githubusercontent.com/62628408/201538130-a1008969-06ae-4aad-9ea0-b77384d6bac1.png)
 
 # {{ $frontmatter.title }}
-
-<div style="width:100%; display:flex; justify-content: space-between;">
-  <p>Author: {{ $frontmatter.author }}</p>
-  <p>Published: {{ $frontmatter.date }}</p>
-</div>
 
 ## Definition
 

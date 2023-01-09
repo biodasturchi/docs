@@ -11,26 +11,22 @@ hero:
   tagline: Bioinformatika va dasturlash yo'nalishida yangiliklar joylab boruvchi web sayt
   actions:
     - theme: brand
-      text: Boshlash
-      link: /posts/index
+      text: Maqolalar
+      link: /pages/blog
     - theme: alt
       text: GitHub
       link: https://github.com/biodasturchi
 
 # Features section
-# features:
-#   - icon: ⚡️
-#     title: Biodasturchi, The DX that can't be beat
-#     details: Lorem ipsum...
-#   - icon: 🎉
-#     title: Power of Vue meets Markdown
-#     details: Lorem ipsum...
-#   - icon: 🔥
-#     title: Simple and minimal, always
-#     details: Lorem ipsum...
-#   - icon: 🎀
-#     title: Stylish and cool
-#     details: Lorem ipsum...
+features:
+  - title: Biodasturchi, The DX that can't be beat
+    details: Lorem ipsum...
+  - title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - title: Simple and minimal, always
+    details: Lorem ipsum...
+  - title: Stylish and cool
+    details: Lorem ipsum...
 
 # Meta property
 head:

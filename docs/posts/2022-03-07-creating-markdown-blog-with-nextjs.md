@@ -1,17 +1,19 @@
 ---
 title: Creating markdown blog with next js
 author: Mirsoli Mirsultonov
-date: 11-25-2022
+date: 2022-03-07
+image: https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png
+description: Markdown makes it much easier to express formatting and focus on writing...
+category: Dev
+tags:
+  - nextjs
+  - markdown
+  - blog
 ---
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png)
 
 # {{ $frontmatter.title }}
-
-<div style="width:100%; display:flex; justify-content: space-between;">
-  <p>Author: {{ $frontmatter.author }}</p>
-  <p>Published: {{ $frontmatter.date }}</p>
-</div>
 
 ## Why Do you want a markdown blog?
 
@@ -30,24 +32,29 @@ In this tutorial I will be making a markdown blog with NextJS. I do have a tool 
 - create a Header and Footer component
 
 `/components/Header.js`
+
 ```javascript
-function Header (props){
-    return <h1>Header Component</h1>
+function Header(props) {
+  return <h1>Header Component</h1>;
 }
 
-export default Header
+export default Header;
 ```
+
 `/components/Footer.js`
+
 ```javascript
-function Footer (props){
-    return <h1>Footer Component</h1>
+function Footer(props) {
+  return <h1>Footer Component</h1>;
 }
 
-export default Footer
+export default Footer;
 ```
+
 - create a Layout component
 
 `/components/Layout.js`
+
 ```javascript
 import Link from "next/link";
 import Header from "./Header";
@@ -63,9 +70,11 @@ export default function Layout({ children }) {
   );
 }
 ```
+
 - Add the layout component so it shows up on every page.
 
 `/pages/_app.js`
+
 ```javascript
 import "../styles/globals.css";
 import Layout from "../components/Layout";
@@ -95,7 +104,7 @@ category: "example"
 date: "2022-03-13"
 bannerImage: "url-to-image.png"
 tags:
-    - example
+  - example
 ---
 
 ## This is an example blog post
@@ -107,60 +116,65 @@ This is sample content. The section above is called Frontmatter where we can add
 
 We will create a page `/blog` that will act as where all our blog posts will be listed so created `/pages/blog.js` with the following. Also make sure to install grey-matter so can get the Frontmatter (the YAML above each blog post).
 
-```npm install gray-matter```
+`npm install gray-matter`
 
 `/pages/blog.js`
+
 ```javascript
-import fs from 'fs';
-import matter from 'gray-matter';
-import Image from 'next/image';
-import Link from 'next/link';
+import fs from "fs";
+import matter from "gray-matter";
+import Image from "next/image";
+import Link from "next/link";
 
 // The Blog Page Content
-export default function Blog({posts}){
-    return <main>
-        {posts.map(post => {
-            //extract slug and frontmatter
-            const {slug, frontmatter} = post
-            //extract frontmatter properties
-            const {title, author, category, date, bannerImage, tags} = frontmatter
+export default function Blog({ posts }) {
+  return (
+    <main>
+      {posts.map((post) => {
+        //extract slug and frontmatter
+        const { slug, frontmatter } = post;
+        //extract frontmatter properties
+        const { title, author, category, date, bannerImage, tags } =
+          frontmatter;
 
-            //JSX for individual blog listing
-            return <article key={title}>
-                <Link href={`/posts/${slug}`}>
-                    <h1>{title}</h1>
-                </Link>
-                <h3>{author}</h3>
-                <h3>{date}</h3>
-            </article>
-        })}
+        //JSX for individual blog listing
+        return (
+          <article key={title}>
+            <Link href={`/posts/${slug}`}>
+              <h1>{title}</h1>
+            </Link>
+            <h3>{author}</h3>
+            <h3>{date}</h3>
+          </article>
+        );
+      })}
     </main>
+  );
 }
 
-
 //Generating the Static Props for the Blog Page
-export async function getStaticProps(){
-    // get list of files from the posts folder
-    const files = fs.readdirSync('posts');
+export async function getStaticProps() {
+  // get list of files from the posts folder
+  const files = fs.readdirSync("posts");
 
-    // get frontmatter & slug from each post
-    const posts = files.map((fileName) => {
-        const slug = fileName.replace('.md', '');
-        const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
-        const { data: frontmatter } = matter(readFile);
+  // get frontmatter & slug from each post
+  const posts = files.map((fileName) => {
+    const slug = fileName.replace(".md", "");
+    const readFile = fs.readFileSync(`posts/${fileName}`, "utf-8");
+    const { data: frontmatter } = matter(readFile);
 
-        return {
-          slug,
-          frontmatter,
-        };
-    });
-
-    // Return the pages static props
     return {
-        props: {
-          posts,
-        },
+      slug,
+      frontmatter,
     };
+  });
+
+  // Return the pages static props
+  return {
+    props: {
+      posts,
+    },
+  };
 }
 ```
 
@@ -170,26 +184,32 @@ We'll need to make a dynamic route that will create a page for every post we hav
 
 Also make sure to install markdown-it
 
-```npm install markdown-it```
+`npm install markdown-it`
 
 `/pages/posts/[slug].js`
+
 ```javascript
 import fs from "fs";
 import matter from "gray-matter";
-import md from 'markdown-it';
+import md from "markdown-it";
 
 // The page for each post
-export default function Post({frontmatter, content}) {
+export default function Post({ frontmatter, content }) {
+  const { title, author, category, date, bannerImage, tags } = frontmatter;
 
-    const {title, author, category, date, bannerImage, tags} = frontmatter
-
-    return <main>
-        <img src={bannerImage}/>
-        <h1>{title}</h1>
-        <h2>{author} || {date}</h2>
-        <h3>{category} || {tags.join()}</h3>
-        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+  return (
+    <main>
+      <img src={bannerImage} />
+      <h1>{title}</h1>
+      <h2>
+        {author} || {date}
+      </h2>
+      <h3>
+        {category} || {tags.join()}
+      </h3>
+      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </main>
+  );
 }
 
 // Generating the paths for each post
@@ -209,18 +229,17 @@ export async function getStaticPaths() {
   };
 }
 
-
 // Generate the static props for the page
 export async function getStaticProps({ params: { slug } }) {
-    const fileName = fs.readFileSync(`posts/${slug}.md`, 'utf-8');
-    const { data: frontmatter, content } = matter(fileName);
-    return {
-      props: {
-        frontmatter,
-        content,
-      },
-    };
-  }
+  const fileName = fs.readFileSync(`posts/${slug}.md`, "utf-8");
+  const { data: frontmatter, content } = matter(fileName);
+  return {
+    props: {
+      frontmatter,
+      content,
+    },
+  };
+}
 ```
 
 That's it, the blog functionality should be working. Now you just need to style it, tweak it to your liking and write more posts! Since this is a NextJS project deployment will be as simple as connecting a github repo to Vercel, how awesome is that!

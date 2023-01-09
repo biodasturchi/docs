@@ -12,41 +12,17 @@ git clone https://github.com/biodasturchi/docs.git
 
 cd docs
 
-npm install
+yarn
 
-npm run docs:dev
+yarn run docs:dev
 ```
 
 Visit [https://localhost:5173](https://localhost:5173) to see your site
 
 ## Build
+
 You may run this command to build the docs
 
 ```bash
-npm run docs:build
-```
-
-## Folder Structure
-
-```
-docs/
-├── .vitepress/
-│   ├── config.js
-│   └── theme/
-│       ├── index.js
-│       └── custom.css
-├── components/
-|   └── BlogCard.vue
-├── posts/
-|   ├── bio/
-|   ├── dev/
-|   └── index.md
-├── public/
-│   ├── logo.svg
-│   └── favicon.ico
-├── about.md
-├── contact.md
-├── index.md
-├── package.json
-└── README.md
+yarn run docs:build
 ```

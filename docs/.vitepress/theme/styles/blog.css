@@ -1,0 +1,100 @@
+/* .vitepress/theme/custom.css */
+/* Colors Base */
+:root {
+  --c-divider-light: #e2e8f0;
+  --c-divider-dark: rgba(84, 84, 88, 0.48);
+
+  --c-brand: #333; /*  don't forget change the --tag-bg for tags */
+  --c-brand-light: #333;
+
+  --font-family-base: "PingFang SC", "Microsoft Yahei", sans-serif;
+  --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+
+  --header-height: 3.6rem;
+  --code-bg-color: #52525b;
+
+  /* pure theme color */
+  --li-dot-color: #737373;
+  --title-color: #f2f2f2;
+  --date-color: #64748b;
+  --date-font-family: Georgia, sans-serif;
+  --tag-bg: #eff6ff;
+  --hover-color: #2c3e50;
+
+  /* scrollbar colors */
+  --vp-c-scrollbar-thumb-light: #c1c1c1;
+  --vp-c-scrollbar-track-light: #f1f1f1;
+  --vp-c-scrollbar-thumb-dark: #686868;
+  --vp-c-scrollbar-track-dark: #424242;
+
+  /* pagination bgc */
+  --vp-pagination-bgc-light: #f4f4f5;
+  --vp-pagination-bgc-dark: #3a3a3a;
+}
+
+/* Colors Theme */
+:root {
+  --vp-c-scrollbar-thumb: var(--vp-c-scrollbar-thumb-light);
+  --vp-c-scrollbar-track: var(--vp-c-scrollbar-track-light);
+  --vp-pagination-bgc: var(--vp-pagination-bgc-light);
+}
+/* Dark Mode Theme */
+.dark {
+  --vp-c-scrollbar-thumb: var(--vp-c-scrollbar-thumb-dark);
+  --vp-c-scrollbar-track: var(--vp-c-scrollbar-track-dark);
+  --vp-pagination-bgc: var(--vp-pagination-bgc-dark);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  /*滑块部分*/
+  /*border-radius: 5px;*/
+  background-color: var(--vp-c-scrollbar-thumb);
+}
+::-webkit-scrollbar-track {
+  /*轨道部分*/
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background: var(--vp-c-scrollbar-track);
+  /*border-radius: 5px;*/
+}
+
+.article {
+  padding: 4px 0 4px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title-o {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--li-dot-color);
+}
+.title {
+  color: var(--li-dot-color);
+  font-size: 0.9375rem;
+}
+.title:hover {
+  color: var(--vp-c-brand);
+}
+.date {
+  color: var(--date-color);
+  /* font-family: var(--date-font-family); */
+}
+.image-src {
+  background: var(--vp-c-brand);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  fill: red;
+}
+.VPFeature {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}

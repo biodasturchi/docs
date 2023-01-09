@@ -5,6 +5,8 @@ import Blog from "./components/Home.vue";
 import Archives from "./components/Archives.vue";
 import Tags from "./components/Tags.vue";
 import Category from "./components/Category.vue";
+import Links from "./components/Links.vue";
+import ContactPage from "./components/ContactPage.vue";
 
 import "./styles/blog.css";
 import "./styles/layout.css";
@@ -18,5 +20,7 @@ export default {
     app.component("Tags", Tags);
     app.component("Category", Category);
     app.component("Archives", Archives);
+    app.component("Links", Links);
+    app.component("ContactPage", ContactPage);
   },
 };

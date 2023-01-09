@@ -1,10 +1,7 @@
 ---
-layout: page
-page: true
-title: Contact
-description: Contact
-sidebar: false
+layout: doc
 aside: false
+lastUpdated: false
 ---
 
-<div class="main-container">Coming soon...</div>
+<ContactPage />

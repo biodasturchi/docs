@@ -9,11 +9,11 @@ import md5 from "blueimp-md5";
 import { onMounted } from "vue";
 
 const gitalk = new Gitalk({
-  clientID: "dce39bfa03d078617599",
-  clientSecret: "d2ce4b2cfc0b3384038f88e34cd0b3aad08ba04d",
+  clientID: "f32c0915f6384229a89e",
+  clientSecret: "651be5d39f8d8b6932564830d43bd85831aa1b0c",
   repo: "docs",
   owner: "biodasturchi",
-  admin: ["biodasturchi"],
+  admin: ["ilosrim"],
   id: md5(location.pathname), // Ensure uniqueness and length less than 50
   language: "en-US",
   distractionFreeMode: true, // Facebook-like distraction free mode

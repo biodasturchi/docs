@@ -11,7 +11,7 @@ git push origin
 cd docs/.vitepress/dist
 
 # Agar maxsus domenga nashr qilinsa
-echo 'biodasturchi.uz' > CNAME
+echo 'https://docs-bio.vercel.app' > CNAME
 
 git init
 git add -A

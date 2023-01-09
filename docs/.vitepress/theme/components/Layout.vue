@@ -18,9 +18,7 @@ const { Layout } = DefaultTheme;
 const isHome = computed(() => {
   return useData().page.value.relativePath.indexOf("index.md") == -1;
 });
-console.log(useData().page.value.relativePath.indexOf("index.md"));
 const isDetail = computed(() => {
   return useData().page.value.relativePath.indexOf("posts") > -1;
 });
-console.log(useData().page.value.relativePath.indexOf("posts"));
 </script>

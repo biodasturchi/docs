@@ -36,6 +36,11 @@ async function config() {
         message: "MIT litsenziyasi ostida chiqarilgan.",
         copyright: `Mualliflik huquqi © 2022-${getPresentDate} Biodasturchi`,
       },
+      // algolia: {
+      //   appId: "H0YF5SCEHL",
+      //   apiKey: "9ef4af6a5248d35c24de605dac8915b8",
+      //   indexName: "biodasturchi",
+      // },
     },
     srcExclude: ["README.md"], // exclude the README.md , needn't to compiler
     markdown: {

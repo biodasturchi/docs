@@ -11,17 +11,17 @@ git push origin
 cd docs/.vitepress/dist
 
 # Agar maxsus domenga nashr qilinsa
-echo 'imgx.cc' > CNAME
+echo 'biodasturchi.uz' > CNAME
 
 git init
 git add -A
 git commit -m 'deploy'
 
 # Agar e'lon qilingan bo'lsa https://<USERNAME>.github.io
-# git push -f git@gitee.com:<USERNAME>/<USERNAME>.gitee.io.git master
+# git push -f git@gitee.com:<USERNAME>/<USERNAME>.gitee.io.git main
 
 # Agar e'lon qilingan bo'lsa https://<USERNAME>.github.io/<REPO>
 # git push <remote hostname> <local branch name>:<remote branch name>
-git push -f git@github.com:biodasturchi/docs.git master:gh-pages
+git push -f git@github.com:biodasturchi/docs.git main:gh-pages
 
 cd -

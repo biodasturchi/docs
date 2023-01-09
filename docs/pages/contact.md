@@ -1,8 +1,8 @@
 ---
 layout: page
 page: true
-title: About
-description: About
+title: Contact
+description: Contact
 sidebar: false
 aside: false
 ---

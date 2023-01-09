@@ -67,8 +67,8 @@ function head() {
 function nav() {
   return [
     { text: "Blog", link: "/pages/blog" },
-    { text: "About", link: "/pages/about" },
-    { text: "Kontakt", link: "/pages/kontakt" },
+    { text: "Haqida", link: "/pages/about" },
+    { text: "Kontakt", link: "/pages/contact" },
     {
       text: "Saralash",
       items: [

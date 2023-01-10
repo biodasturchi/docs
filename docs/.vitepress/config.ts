@@ -1,4 +1,5 @@
 import { getPosts, getPostLength } from "./utils/page";
+import { SearchPlugin } from "vitepress-plugin-search";
 
 async function config() {
   let getPresentDate = new Date().getFullYear();
@@ -7,7 +8,7 @@ async function config() {
     description: "Biodasturchi web sahifasi",
     base: "/",
     head: head(),
-    lang: "uz-Uz",
+    lang: "uz-UZ",
     lastUpdated: true,
 
     themeConfig: {
@@ -19,7 +20,10 @@ async function config() {
       outlineTitle: "Kontur",
       repo: "biodasturchi/docs",
       nav: nav(),
-      lastUpdatedText: "Updated Date",
+      sidebar: {
+        "/posts/": sidebarArticles(),
+      },
+      lastUpdatedText: "Last updated",
       socialLinks: [
         { icon: "github", link: "https://github.com/biodasturchi" },
         // { icon: "twitter", link: "https://twitter.com/ilosrim" },
@@ -36,13 +40,23 @@ async function config() {
         message: "MIT litsenziyasi ostida chiqarilgan.",
         copyright: `Mualliflik huquqi © 2022-${getPresentDate} Biodasturchi`,
       },
-      // algolia: {
-      //   appId: "H0YF5SCEHL",
-      //   apiKey: "9ef4af6a5248d35c24de605dac8915b8",
-      //   indexName: "biodasturchi",
-      // },
+      algolia: {
+        appId: "H0YF5SCEHL",
+        apiKey: "9ef4af6a5248d35c24de605dac8915b8",
+        indexName: "blog_info",
+      },
+      commentConfig: {
+        type: "gitalk",
+        showComment: true,
+      },
     },
-    srcExclude: ["README.md"], // exclude the README.md , needn't to compiler
+    vite: {
+      plugins: [SearchPlugin()],
+      build: {
+        ssr: false,
+      },
+    },
+    srcExclude: ["README.md"],
     markdown: {
       theme: "material-palenight",
       lineNumbers: true,
@@ -110,6 +124,34 @@ function nav() {
     //     },
     //   ],
     // },
+  ];
+}
+
+function sidebarArticles() {
+  return [
+    {
+      text: "Articles",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          text: "Ligand docking and binding site analysis with pymol and autodock/vina",
+          link: "/posts/2022-09-29-ligand-docking-and-binding-site-analysis",
+        },
+        {
+          text: "Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.",
+          link: "/posts/2022-06-03-docking-on-ca-complex",
+        },
+        {
+          text: "Creating markdown blog with NextJS",
+          link: "/posts/2022-03-07-creating-markdown-blog-with-nextjs",
+        },
+        {
+          text: "How to build modern docs with vitepress",
+          link: "/posts/2022-01-05-how-to-build-modern-docs-with-vitepress",
+        },
+      ],
+    },
   ];
 }
 

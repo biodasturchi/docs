@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Biodasturchi</h1>
-  <p>A docs template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
+  <p>A blog template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
 </div>
 
 ## Run project locally

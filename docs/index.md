@@ -4,14 +4,14 @@ layout: home
 # Hero section
 hero:
   name: Biodasturchi
-  text: Biologiya ichra informatika.
+  text: Informatics within biology.
   image:
     src: /logo.svg
     alt: Biodasturchi logo
-  tagline: Bioinformatika va dasturlash yo'nalishida yangiliklar joylab boruvchi web sayt
+  tagline: Website with news in bioinformatics and programming
   actions:
     - theme: brand
-      text: Maqolalar
+      text: Articles
       link: /pages/blog
     - theme: alt
       text: GitHub

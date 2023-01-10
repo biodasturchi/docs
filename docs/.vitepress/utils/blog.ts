@@ -5,6 +5,7 @@ export type Post = {
     category: string;
     tags: string[];
     description: string;
+    image: string;
   };
   regularPath: string;
 };

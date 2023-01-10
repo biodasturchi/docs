@@ -5,7 +5,7 @@
   --c-divider-dark: rgba(84, 84, 88, 0.48);
 
   --c-brand: #333; /*  don't forget change the --tag-bg for tags */
-  --c-brand-light: #333;
+  --c-brand-light: #3eaf7c;
 
   --font-family-base: "PingFang SC", "Microsoft Yahei", sans-serif;
   --font-family-mono: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

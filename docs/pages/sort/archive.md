@@ -7,4 +7,4 @@ sidebar: false
 aside: false
 ---
 
-<Archives/>
+<Archive />

@@ -2,13 +2,12 @@ import { getPosts, getPostLength } from "./utils/page";
 import { SearchPlugin } from "vitepress-plugin-search";
 
 async function config() {
-  let getPresentDate = new Date().getFullYear();
   return {
     title: "Biodasturchi",
-    description: "Biodasturchi web sahifasi",
+    description: "Biodasturchi web page",
     base: "/",
     head: head(),
-    lang: "uz-UZ",
+    lang: "en-US",
     lastUpdated: true,
 
     themeConfig: {
@@ -17,7 +16,7 @@ async function config() {
       postLength: await getPostLength(),
       // logo: "/logo.svg",
       siteTitle: "Biodasturchi",
-      outlineTitle: "Kontur",
+      outlineTitle: "Outline title",
       repo: "biodasturchi/docs",
       nav: nav(),
       sidebar: {
@@ -33,21 +32,12 @@ async function config() {
         text: "Edit this page on GitHub",
       },
       docFooter: {
-        prev: "Oldingi",
-        next: "Keyingi",
+        prev: "Prev",
+        next: "Next",
       },
       footer: {
-        message: "MIT litsenziyasi ostida chiqarilgan.",
-        copyright: `Mualliflik huquqi © 2022-${getPresentDate} Biodasturchi`,
-      },
-      algolia: {
-        appId: "H0YF5SCEHL",
-        apiKey: "9ef4af6a5248d35c24de605dac8915b8",
-        indexName: "blog_info",
-      },
-      commentConfig: {
-        type: "gitalk",
-        showComment: true,
+        message: "Released under the MIT License.",
+        copyright: `Copyright © 2022-${new Date().getFullYear()} Biodasturchi`,
       },
     },
     vite: {
@@ -86,21 +76,21 @@ function head() {
 function nav() {
   return [
     { text: "Blog", link: "/pages/blog" },
-    { text: "Haqida", link: "/pages/about" },
-    { text: "Kontakt", link: "/pages/contact" },
+    { text: "About", link: "/pages/about" },
+    { text: "Contact", link: "/pages/contact" },
     {
-      text: "Saralash",
+      text: "Sort",
       items: [
         {
-          text: "Arxiv",
-          link: "/pages/sort/archives",
+          text: "Archive",
+          link: "/pages/sort/archive",
         },
         {
-          text: "Teglar",
+          text: "Tag",
           link: "/pages/sort/tags",
         },
         {
-          text: "Turkumlar",
+          text: "Category",
           link: "/pages/sort/category",
         },
       ],
@@ -134,6 +124,10 @@ function sidebarArticles() {
       collapsible: true,
       collapsed: true,
       items: [
+        {
+          text: "AlphaFold's new rival? Meta AI predicts shape of 600 million proteins",
+          link: "/posts/2022-11-01-alphafold-s-new-rival",
+        },
         {
           text: "Ligand docking and binding site analysis with pymol and autodock/vina",
           link: "/posts/2022-09-29-ligand-docking-and-binding-site-analysis",

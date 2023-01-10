@@ -5,7 +5,7 @@
     </template>
   </Layout>
 </template>
-<script setup>
+<script lang="ts" setup>
 import { useData } from "vitepress";
 import { computed } from "vue";
 import DefaultTheme from "vitepress/theme";

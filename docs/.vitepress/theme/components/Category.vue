@@ -1,6 +1,5 @@
 <template>
   <div class="main-container">
-    <h1>Turkumlar</h1>
     <div class="tags">
       <span
         @click="toggleCategory(key)"

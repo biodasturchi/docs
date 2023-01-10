@@ -35,6 +35,7 @@
 <script lang="ts" setup>
 import { onMounted, ref, reactive } from "vue";
 import { useData, withBase } from "vitepress";
+import { Post } from "docs/.vitepress/utils/blog";
 const { theme } = useData();
 
 interface post {
@@ -43,7 +44,7 @@ interface post {
 }
 
 // get posts
-let postsAll = theme.value.posts || [];
+let postsAll: Post[] = theme.value.posts || [];
 // get postLength
 let postLength = theme.value.postLength;
 // get pageSize
@@ -61,7 +62,7 @@ postsAll = postsAll.filter((item: post) => {
   return item.regularPath.indexOf("index") < 0;
 });
 // pagination
-let allMap = {};
+let allMap: Record<number, []> = {};
 for (let i = 0; i < pagesNum; i++) {
   allMap[i] = [];
 }
@@ -73,11 +74,11 @@ for (let i = 0; i < postsAll.length; i++) {
   allMap[index].push(postsAll[i]);
 }
 // set posts
-let posts = ref([]);
+let posts = ref<Post[]>([]);
 posts.value = allMap[pageCurrent.value - 1];
 
 // click pagination
-const go = (i) => {
+const go = (i: number) => {
   pageCurrent.value = i;
   posts.value = allMap[pageCurrent.value - 1];
 };

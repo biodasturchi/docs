@@ -1,4 +1,15 @@
 <div align="center">
+  <div style="width: 300px; background:#3eaf7c; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;">
+    <img 
+      src="./docs/public/logo.png" 
+      alt="image" 
+      width="280px" 
+      height="280px"
+    />
+
+  <!-- ![image](./docs/public/logo.png) -->
+
+  </div>
   <h1>Biodasturchi</h1>
   <p>A blog template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
 </div>

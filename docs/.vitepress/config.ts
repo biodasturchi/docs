@@ -12,7 +12,7 @@ async function config() {
 
     themeConfig: {
       posts: await getPosts(),
-      pageSize: 3,
+      pageSize: 5,
       postLength: await getPostLength(),
       // logo: "/logo.svg",
       siteTitle: "Biodasturchi",

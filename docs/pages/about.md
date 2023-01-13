@@ -8,11 +8,9 @@ I'm a **_software engineer & bioinformatic_**
 
 ## Skills
 
-- JavaScript (ES6), Typescript, Python, R, Bash script
-- React JS, Vue JS, Fresh
-- HTML5, CSS3, SASS, SCSS
-- Node JS, Deno
-- Material UI, AntDesign, Tailwind CSS, Bootstrap/Reactstrap
+- JS, TS, Python, R
+- React, Vue, Fresh, Vitepress
+- Tailwind CSS, Bootstrap/Reactstrap
 
 ## Tools
 

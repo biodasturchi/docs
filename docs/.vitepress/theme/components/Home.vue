@@ -7,7 +7,7 @@
             <div class="item-date" v-text="item.frontMatter.date"></div>
             <div class="item-title" v-text="item.frontMatter.title"></div>
           </div>
-          <div class="item-tag" v-text="item.frontMatter.tags.join(', ')"></div>
+          <div class="item-tag" v-text="item.frontMatter.description"></div>
         </div>
         <!-- <img
           class="postImage"

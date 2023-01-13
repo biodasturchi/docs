@@ -13,12 +13,17 @@ tags:
   - deepmind
   - dna
   - rna
+  - alphafold
 ---
 
-![banner](https://media.nature.com/lw767/magazine-assets/d41586-022-03539-1/d41586-022-03539-1_23662838.jpg?as=webp)
-The ESM Metagenomic Atlas contains structural predictions for 617 million proteins.Credit: ESM Metagenomic Atlas (CC BY 4.0)
-
 # {{ $frontmatter.title }}
+
+{{ $frontmatter.description }}
+
+_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-03539-1#author-0)_
+
+![banner](https://media.nature.com/lw767/magazine-assets/d41586-022-03539-1/d41586-022-03539-1_23662838.jpg?as=webp)
+_The ESM Metagenomic Atlas contains structural predictions for 617 million proteins.Credit: ESM Metagenomic Atlas (CC BY 4.0)_
 
 When London-based artificial-intelligence (AI) company DeepMind unveiled [predicted structures for some 220 million proteins earlier this year](https://www.nature.com/articles/d41586-022-02083-2), the trove covered nearly every protein from known organisms in DNA databases. Now, another tech giant is filling in the ‘dark matter’ of the protein universe.
 
@@ -52,7 +57,8 @@ In total, the team predicted the structures of more than 617 million proteins. T
   <a href="https://www.nature.com/articles/d41586-022-00997-5">
     <img src="https://media.nature.com/w400/magazine-assets/d41586-022-03539-1/d41586-022-03539-1_20323140.png" alt="benner" />
     <p style="margin-bottom: 0;">
-    ‘It will change everything’: DeepMind’s AI makes gigantic leap in solving protein structures</p>
+      What's next for AlphaFold and the AI protein-folding revolution
+    </p>
   </a>
 </div>
 
@@ -76,8 +82,8 @@ _[doi: https://doi.org/10.1038/d41586-022-03539-1](https://doi.org/10.1038/d4158
 
 ## References
 
-1. Lin, Z. et al. Preprint at bioRxiv https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2 (2022).
-2. Lin, Z. et al. Preprint at bioRxiv https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1 (2022).
+1. Lin, Z. et al. Preprint at bioRxiv [link](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2) (2022).
+2. Lin, Z. et al. Preprint at bioRxiv [link](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1) (2022).
 3. Weissenow, K., Heinzinger, M. & Rost, B. Structure 30, 1169–1177 (2022).
    **[Article](https://doi.org/10.1016%2Fj.str.2022.05.001)** | **[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35609601)** | **[Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Structure&doi=10.1016%2Fj.str.2022.05.001&volume=30&pages=1169-1177&publication_year=2022&author=Weissenow%2CK.&author=Heinzinger%2CM.&author=Rost%2CB.)**
 

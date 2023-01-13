@@ -12,9 +12,13 @@ tags:
   - pymol
 ---
 
-![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
-
 # {{ $frontmatter.title }}
+
+{{ $frontmatter.description }}
+
+_{{ $frontmatter.author }}_
+
+![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
 
 ## Abstract
 

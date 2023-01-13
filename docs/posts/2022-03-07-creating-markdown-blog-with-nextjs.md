@@ -11,9 +11,13 @@ tags:
   - blog
 ---
 
-![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png)
-
 # {{ $frontmatter.title }}
+
+{{ $frontmatter.description }}
+
+_{{ $frontmatter.author }}_
+
+![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/dev//nextjs-markdown2.png)
 
 ## Why Do you want a markdown blog?
 

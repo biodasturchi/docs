@@ -137,12 +137,20 @@ function sidebarArticles() {
           link: "/posts/2022-06-03-docking-on-ca-complex",
         },
         {
+          text: "What's next for AlphaFold and the AI protein-folding revolution",
+          link: "/posts/2022-04-13-ai-protein-folding-revolution",
+        },
+        {
           text: "Creating markdown blog with NextJS",
           link: "/posts/2022-03-07-creating-markdown-blog-with-nextjs",
         },
         {
           text: "How to build modern docs with vitepress",
           link: "/posts/2022-01-05-how-to-build-modern-docs-with-vitepress",
+        },
+        {
+          text: "DeepMind's AI makes gigantic leap in solving protein structures",
+          link: "/posts/2020-11-30-it-will-change-everything",
         },
       ],
     },

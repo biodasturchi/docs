@@ -31,7 +31,7 @@ This behemoth, called the nuclear pore complex, controls the flow of molecules i
 
 These 1,000 puzzle pieces are drawn from more than 30 protein building blocks that interlace in myriad ways. Making the puzzle even harder, the experimentally determined 3D shapes of these building blocks are a potpourri of structures gathered from many species, so don’t always mesh together well. And the picture on the puzzle’s box — a low-resolution 3D view of the nuclear pore complex — lacks sufficient detail to know how many of the pieces precisely fit together.
 
-In 2016, a team led by Beck, who is based at the Max Planck Institute of Biophysics (MPIBP) in Frankfurt, Germany, reported a model1 that covered about 30% of the nuclear pore complex and around half of the 30 building blocks, called Nup proteins.
+In 2016, a team led by Beck, who is based at the Max Planck Institute of Biophysics (MPIBP) in Frankfurt, Germany, reported a model<sup>1</sup> that covered about 30% of the nuclear pore complex and around half of the 30 building blocks, called Nup proteins.
 
 Then, last July, London-based firm DeepMind, part of Alphabet — Google’s parent company — made public an artificial intelligence (AI) tool called AlphaFold2. The software could predict the 3D shape of proteins from their genetic sequence with, for the most part, pinpoint accuracy. This transformed Beck’s task, and the studies of thousands of other biologists (see ‘AlphaFold mania’).
 
@@ -39,7 +39,7 @@ Then, last July, London-based firm DeepMind, part of Alphabet — Google’s par
 
 “AlphaFold changes the game,” says Beck. “This is like an earthquake. You can see it everywhere,” says Ora Schueler-Furman, a computational structural biologist at the Hebrew University of Jerusalem in Israel, who is using AlphaFold to model protein interactions. “There is before July and after.”
 
-Using AlphaFold, Beck and others at the MPIBP — molecular biologist Agnieszka Obarska-Kosinska and a group led by biophysicist Gerhard Hummer — as well as a team led by structural modeller Jan Kosinski, at the European Molecular Biology Laboratory (EMBL) in Hamburg in Germany, could predict shapes for human versions of the Nup proteins more accurately. And by taking advantage of a tweak that helped AlphaFold to model how proteins interact, they managed to publish a model last October that covered 60% of the complex3. It reveals how the complex stabilizes holes in the nucleus, as well as hinting at how the complex controls what gets in and out.
+Using AlphaFold, Beck and others at the MPIBP — molecular biologist Agnieszka Obarska-Kosinska and a group led by biophysicist Gerhard Hummer — as well as a team led by structural modeller Jan Kosinski, at the European Molecular Biology Laboratory (EMBL) in Hamburg in Germany, could predict shapes for human versions of the Nup proteins more accurately. And by taking advantage of a tweak that helped AlphaFold to model how proteins interact, they managed to publish a model last October that covered 60% of the complex<sup>3</sup>. It reveals how the complex stabilizes holes in the nucleus, as well as hinting at how the complex controls what gets in and out.
 
 <div style="border: 1px solid #42b883; width: 250px; float: left; margin: 10px 5px 0 0; padding: 5px;">
   <a href="https://www.nature.com/articles/d41586-021-02025-4">

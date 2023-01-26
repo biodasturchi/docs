@@ -23,7 +23,7 @@ tags:
 _[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-03539-1#author-0)_
 
 ![banner](https://media.nature.com/lw767/magazine-assets/d41586-022-03539-1/d41586-022-03539-1_23662838.jpg?as=webp)
-_The ESM Metagenomic Atlas contains structural predictions for 617 million proteins.Credit: ESM Metagenomic Atlas (CC BY 4.0)_
+_The ESM Metagenomic Atlas contains structural predictions for 617 million proteins. Credit: ESM Metagenomic Atlas (CC BY 4.0)_
 
 When London-based artificial-intelligence (AI) company DeepMind unveiled [predicted structures for some 220 million proteins earlier this year](https://www.nature.com/articles/d41586-022-02083-2), the trove covered nearly every protein from known organisms in DNA databases. Now, another tech giant is filling in the ‘dark matter’ of the protein universe.
 
@@ -70,7 +70,7 @@ Sergey Ovchinnikov, an evolutionary biologist at Harvard University in Cambridge
 
 ## Leaner, simpler, cheaper
 
-Burkhard Rost, a computational biologist at the Technical University of Munich in Germany, is impressed by the combined speed and accuracy of Meta’s model. But he questions whether ESMFold really offers an advantage over AlphaFold’s precision when it comes to predicting proteins from metagenomic databases. Language-model-based prediction methods — including one developed by his team3 — are better suited to quickly determining how mutations alter a protein’s structure, which is not possible with AlphaFold. “We will see structure prediction become leaner, simpler, cheaper, and that will open the door for new things,” he says.
+Burkhard Rost, a computational biologist at the Technical University of Munich in Germany, is impressed by the combined speed and accuracy of Meta’s model. But he questions whether ESMFold really offers an advantage over AlphaFold’s precision when it comes to predicting proteins from metagenomic databases. Language-model-based prediction methods — including one developed by his team<sup>3</sup> — are better suited to quickly determining how mutations alter a protein’s structure, which is not possible with AlphaFold. “We will see structure prediction become leaner, simpler, cheaper, and that will open the door for new things,” he says.
 
 DeepMind doesn’t currently have plans to include metagenomic structural predictions in its database, but hasn’t ruled out adding them to future releases, according to a company representative. But Steinegger and his collaborators have used a version of AlphaFold to predict the structures of some 30 million metagenomic proteins. They are hoping to find new kinds of RNA virus by looking for previously unknown forms of the viruses’ genome-copying enzymes.
 

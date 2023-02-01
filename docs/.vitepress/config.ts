@@ -120,7 +120,7 @@ function nav() {
 function sidebarArticles() {
   return [
     {
-      text: "Articles",
+      text: "Bio",
       collapsible: true,
       collapsed: true,
       items: [
@@ -141,16 +141,23 @@ function sidebarArticles() {
           link: "/posts/2022-04-13-ai-protein-folding-revolution",
         },
         {
+          text: "DeepMind's AI makes gigantic leap in solving protein structures",
+          link: "/posts/2020-11-30-it-will-change-everything",
+        },
+      ],
+    },
+    {
+      text: "Dev",
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
           text: "Creating markdown blog with NextJS",
           link: "/posts/2022-03-07-creating-markdown-blog-with-nextjs",
         },
         {
           text: "How to build modern docs with vitepress",
           link: "/posts/2022-01-05-how-to-build-modern-docs-with-vitepress",
-        },
-        {
-          text: "DeepMind's AI makes gigantic leap in solving protein structures",
-          link: "/posts/2020-11-30-it-will-change-everything",
         },
       ],
     },

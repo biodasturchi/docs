@@ -76,7 +76,7 @@ function head() {
 function nav() {
   return [
     { text: "Blog", link: "/pages/blog" },
-    { text: "About", link: "/pages/about" },
+    // { text: "About", link: "/pages/about" },
     { text: "Contact", link: "/pages/contact" },
     {
       text: "Sort",

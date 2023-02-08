@@ -67,7 +67,7 @@ function head() {
       },
     ],
     // <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-    // ['meta', { property: 'Content-Security-Policy', content: 'upgrade-insecure-requests' }],
+    ['meta', { property: 'Content-Security-Policy', content: 'upgrade-insecure-requests' }],
     ["meta", { name: "author", content: "biodasturchi.uz" }],
     ["meta", { property: "og:title", content: "Home" }],
   ];
@@ -76,7 +76,7 @@ function head() {
 function nav() {
   return [
     { text: "Blog", link: "/pages/blog" },
-    { text: "About", link: "/pages/about" },
+    // { text: "About", link: "/pages/about" },
     { text: "Contact", link: "/pages/contact" },
     {
       text: "Sort",
@@ -95,25 +95,6 @@ function nav() {
         },
       ],
     },
-    // { text: "About", link: "/pages/about" },
-    // {
-    //   // Dropdown Menu
-    //   text: "O'zgarishlar",
-    //   items: [
-    //     {
-    //       text: "v1.0.0",
-    //       link: "https://github.com/biodasturchi/docs/releases/tag/v1.0.0",
-    //     },
-    //     {
-    //       text: "v1.0.1",
-    //       link: "https://github.com/biodasturchi/docs/releases/tag/v1.0.1",
-    //     },
-    //     {
-    //       text: "v2.0.0",
-    //       link: "https://github.com/biodasturchi/docs/releases/tag/v2.0.0",
-    //     },
-    //   ],
-    // },
   ];
 }
 

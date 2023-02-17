@@ -114,10 +114,6 @@ function sidebarArticles() {
           link: "/posts/2022-09-29-ligand-docking-and-binding-site-analysis",
         },
         {
-          text: "Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.",
-          link: "/posts/2022-06-03-docking-on-ca-complex",
-        },
-        {
           text: "What's next for AlphaFold and the AI protein-folding revolution",
           link: "/posts/2022-04-13-ai-protein-folding-revolution",
         },

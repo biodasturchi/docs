@@ -76,7 +76,7 @@ function head() {
 function nav() {
   return [
     { text: "Blog", link: "/pages/blog" },
-    { text: "About", link: "/pages/about" },
+    // { text: "About", link: "/pages/about" },
     { text: "Contact", link: "/pages/contact" },
     {
       text: "Sort",
@@ -112,10 +112,6 @@ function sidebarArticles() {
         {
           text: "Ligand docking and binding site analysis with pymol and autodock/vina",
           link: "/posts/2022-09-29-ligand-docking-and-binding-site-analysis",
-        },
-        {
-          text: "Cav1.1 kanaliga ligand sifatida cynaroside moddasining kiritilishi.",
-          link: "/posts/2022-06-03-docking-on-ca-complex",
         },
         {
           text: "What's next for AlphaFold and the AI protein-folding revolution",

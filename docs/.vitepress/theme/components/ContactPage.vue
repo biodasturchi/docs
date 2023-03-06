@@ -2,7 +2,7 @@
   <div class="main-container">
 
     <div class="links">
-      <font-awesome-icon icon="fa-regular fa-envelope" />
+      <font-awesome-icon icon="fa-solid fa-envelope" />
       <span>E-mail</span> <a href="mailto:biodasturchi@gmail.com" target="_blank" rel="noopener noreferrer">biodasturchi@gmail.com</a>
     </div>
 
@@ -18,7 +18,7 @@
 
     <div class="links">
       <font-awesome-icon icon="fa-brands fa-twitter" />
-      <span>Twitter</span> <a href="https://twitter.com/mirjr17" target="_blank" rel="noopener noreferrer">@mirjr</a>
+      <span>Twitter</span> <a href="https://twitter.com/mirjr17" target="_blank" rel="noopener noreferrer">@mirjr17</a>
     </div>
 
     <div class="links">

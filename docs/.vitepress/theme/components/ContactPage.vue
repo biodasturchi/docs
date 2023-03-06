@@ -2,7 +2,7 @@
   <div class="main-container">
 
     <div class="links">
-      <font-awesome-icon icon="fa-regular fa-envelope" />
+      <font-awesome-icon icon="fa-solid fa-envelope" />
       <span>E-mail</span> <a href="mailto:biodasturchi@gmail.com" target="_blank" rel="noopener noreferrer">biodasturchi@gmail.com</a>
     </div>
 

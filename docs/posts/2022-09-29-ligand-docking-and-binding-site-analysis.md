@@ -2,6 +2,7 @@
 title: Ligand docking and binding site analysis with pymol and autodock/vina
 author: Mirsoli Mirsultonov
 date: 2022-09-29
+subDate: 2022/09/29
 image: https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png
 description: Docking of various therapeutically important chemical entities to the specific target sites...
 category: Bio
@@ -16,7 +17,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_{{ $frontmatter.author }}_
+_{{ $frontmatter.author }}_ | {{ $frontmatter.subDate}}
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
 

@@ -2,6 +2,7 @@
 title: AlphaFold’s new rival? Meta AI predicts shape of 600 million proteins
 author: Ewen Callaway
 date: 2022-11-01
+subDate: 2022/11/01
 image: https://media.nature.com/lw767/magazine-assets/d41586-022-03539-1/d41586-022-03539-1_23662838.jpg?as=webp
 description: Microbial molecules from soil, seawater and human bodies are among the planet’s least understood.
 category: Bio
@@ -20,7 +21,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-03539-1#author-0)_
+_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-03539-1#author-0)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://media.nature.com/lw767/magazine-assets/d41586-022-03539-1/d41586-022-03539-1_23662838.jpg?as=webp)
 _The ESM Metagenomic Atlas contains structural predictions for 617 million proteins. Credit: ESM Metagenomic Atlas (CC BY 4.0)_

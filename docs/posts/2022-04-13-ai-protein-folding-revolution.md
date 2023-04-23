@@ -2,6 +2,7 @@
 title: What's next for AlphaFold and the AI protein-folding revolution
 author: Ewen Callaway
 date: 2022-04-13
+subDate: 2022/04/13
 image: https://media.nature.com/w1248/magazine-assets/d41586-022-00997-5/d41586-022-00997-5_20300292.gif?as=webp
 description: DeepMind software that can predict the 3D shape of proteins is already changing biology.
 category: Bio
@@ -20,7 +21,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-00997-5#author-0)_
+_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-00997-5#author-0)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://media.nature.com/w1248/magazine-assets/d41586-022-00997-5/d41586-022-00997-5_20300292.gif?as=webp)
 _A top-down view of the human nuclear pore complex, the largest molecular machine in human cells. Credit: Agnieszka Obarska-Kosinska_

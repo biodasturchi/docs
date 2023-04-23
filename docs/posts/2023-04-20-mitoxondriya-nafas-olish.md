@@ -18,7 +18,7 @@ tags:
 
 <!-- {{ $frontmatter.description }} -->
 
-_[{{ $frontmatter.author }}](https://www.biodasturchi.uz)_ | {{ $frontmatter.subDate}}
+_[{{ $frontmatter.author }}](mailto:mirjr17@outlook.com)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2023-04-20/banner.png)
 _2 Mitochondrial respiratory chain. [link](https://www.researchgate.net/figure/Mitochondrial-respiratory-chain-For-mammals-the-respiratory-chain-consists-of-four_fig2_227115034)_

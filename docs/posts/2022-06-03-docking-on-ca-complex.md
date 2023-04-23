@@ -17,7 +17,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_{{ $frontmatter.author }}_ | {{ $frontmatter.subDate}}
+_[{{ $frontmatter.author }}](mailto:mirjr17@outlook.com)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-25/complex-2.png)
 

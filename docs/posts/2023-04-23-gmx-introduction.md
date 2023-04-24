@@ -131,35 +131,35 @@ gmx solvate -cs conf.gro -o out_conf.gro -box 2.5 -p topol.top
 ```
 > `topol.top` faylini text editorda ochib, eng pastdagi `HOH` qatorini o'chirib, `SOL` qatorini 510 ga tenglashtirib qo'ying
 
-## Suv energiyasini minimallashtirish
+## Suv energiyasini minimallashtirish uchin `min.mdp` dan foydalanamiz. Ushbu faylni [bu yerdan](https://raw.githubusercontent.com/biodasturchi/docs/main/docs/sources/files/gmx/files/min.mdp) ko'chirib olishingiz mumkin.
 
 ```bash
 gmx grompp -f min.mdp -c out_conf.gro -p topol.top -o min -maxwarn 2
 gmx mdrun -deffnm min -v
 ```
 
-## Joylashuvni cheklash (position restraint) fayli.
+## Joylashuvni cheklash (position restraint), ushbu faylni fayli [bu yerdan](https://raw.githubusercontent.com/biodasturchi/docs/main/docs/sources/files/gmx/files/pr.mdp) ko'chirib olishingiz mumkin.
 
 ```bash
 gmx grompp -v -f pr.mdp -c min.gro -p topol.top -o pr -maxwarn 2
 gmx mdrun -v -deffnm pr   
 ```
 
-## NVT
+## NVT, ushbu faylni fayli [bu yerdan](https://raw.githubusercontent.com/biodasturchi/docs/main/docs/sources/files/gmx/files/nvt.mdp) ko'chirib olishingiz mumkin.
 
 ```
 gmx grompp -v -f nvt.mdp -c pr.gro -p topol.top -o nvt -maxwarn 2
 gmx mdrun -v -deffnm nvt
 ```
 
-## NPT
+## NPT, ushbu faylni fayli [bu yerdan](https://raw.githubusercontent.com/biodasturchi/docs/main/docs/sources/files/gmx/files/npt.mdp) ko'chirib olishingiz mumkin.
 
 ```bash
 gmx grompp  -f npt.mdp -c nvt.gro -p topol.top -o npt -maxwarn 2 
 gmx mdrun -deffnm npt
 ```
 
-## Oxirgi `prodaction` jarayoni, bunda sistemamizga 1 ns vaqt beramiz
+## Oxirgi `prodaction` jarayoni, bunda sistemamizga 1 ns vaqt beramiz, ushbu faylni fayli [bu yerdan](https://raw.githubusercontent.com/biodasturchi/docs/main/docs/sources/files/gmx/files/prod.mdp) ko'chirib olishingiz mumkin.
 
 ```bash
 gmx grompp -f prod.mdp -c npt.gro -p topol.top -o prod -maxwarn 2

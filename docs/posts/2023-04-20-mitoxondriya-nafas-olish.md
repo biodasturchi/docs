@@ -4,7 +4,7 @@ author: Mirsoli Mirsultonov
 date: 2023-04-20
 subDate: 2023/04/20
 image: https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2023-04-20/banner.png
-description: ""
+description: "Strathkelvin va ORIGIN dasturlaridan foydalanib mitoxondriya nafas olish faoliyatini o'rganish"
 category: Bio
 tags:
   - biophysics
@@ -16,7 +16,7 @@ tags:
 
 # {{ $frontmatter.title }}
 
-<!-- {{ $frontmatter.description }} -->
+{{ $frontmatter.description }}
 
 _[{{ $frontmatter.author }}](mailto:mirjr17@outlook.com)_ | {{ $frontmatter.subDate}}
 

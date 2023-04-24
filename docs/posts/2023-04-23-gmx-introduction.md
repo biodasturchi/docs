@@ -17,7 +17,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-03539-1#author-0)_ | {{ $frontmatter.subDate}}
+_[{{ $frontmatter.author }}](mailto:mirjr17@outlook.com)_ | {{ $frontmatter.subDate}}
 
 [![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2023-04-24/gromacs.png)](https://manual.gromacs.org/current/index.html)
 

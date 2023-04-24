@@ -106,11 +106,11 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
-          text: "Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
+          text: "- Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },
         {
-          text: "Mitoxondriyalarning nafas olish faoliyatini baholash",
+          text: "- Mitoxondriyalarning nafas olish faoliyatini baholash",
           link: "/posts/2023-04-20-mitoxondriya-nafas-olish",
         },
         {

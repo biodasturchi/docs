@@ -106,6 +106,14 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
+          text: "- Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
+          link: "/posts/2023-04-23-gmx-introduction",
+        },
+        {
+          text: "- Mitoxondriyalarning nafas olish faoliyatini baholash",
+          link: "/posts/2023-04-20-mitoxondriya-nafas-olish",
+        },
+        {
           text: "- AlphaFold's new rival? Meta AI predicts shape of 600 million proteins",
           link: "/posts/2022-11-01-alphafold-s-new-rival",
         },

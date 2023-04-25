@@ -2,6 +2,7 @@
 title: DeepMind’s AI makes gigantic leap in solving protein structures
 author: Ewen Callaway
 date: 2020-11-30
+subDate: 2020/11/30
 image: https://media.nature.com/lw767/magazine-assets/d41586-020-03348-4/d41586-020-03348-4_18633160.jpg?as=webp
 description: Google’s deep-learning program for determining the 3D shapes of proteins stands to transform biology, say scientists.
 category: Bio
@@ -20,7 +21,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-020-03348-4#author-0)_
+_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-020-03348-4#author-0)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://media.nature.com/lw767/magazine-assets/d41586-020-03348-4/d41586-020-03348-4_18633160.jpg?as=webp)
 _A protein’s function is determined by its 3D shape.Credit: DeepMind_

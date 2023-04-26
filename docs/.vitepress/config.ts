@@ -24,8 +24,8 @@ async function config() {
       },
       lastUpdatedText: "Last updated",
       socialLinks: [
-        { icon: "github", link: "https://github.com/biodasturchi" },
-        // { icon: "twitter", link: "https://twitter.com/ilosrim" },
+        { icon: "github", link: "https://github.com/mirjr" },
+        { icon: "twitter", link: "https://twitter.com/mirjr17" },
       ],
       editLink: {
         pattern: "https://github.com/biodasturchi/docs/blob/main/docs/:path",
@@ -48,8 +48,11 @@ async function config() {
     },
     srcExclude: ["README.md"],
     markdown: {
-      theme: "material-palenight",
-      lineNumbers: true,
+      // shiki code theme
+      theme: {
+        light: 'vitesse-light',
+        dark: 'vitesse-dark',
+      },
     },
   };
 }
@@ -75,26 +78,10 @@ function head() {
 
 function nav() {
   return [
-    { text: "Blog", link: "/pages/blog" },
-    // { text: "About", link: "/pages/about" },
+    { text: "Archive", link: "/pages/archive", },
+    { text: "Tag", link: "/pages/tags", },
+    { text: "Category", link: "/pages/category", },
     { text: "Contact", link: "/pages/contact" },
-    {
-      text: "Sort",
-      items: [
-        {
-          text: "Archive",
-          link: "/pages/sort/archive",
-        },
-        {
-          text: "Tag",
-          link: "/pages/sort/tags",
-        },
-        {
-          text: "Category",
-          link: "/pages/sort/category",
-        },
-      ],
-    },
   ];
 }
 

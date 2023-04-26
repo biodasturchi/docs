@@ -1,8 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "vitepress blog",
-  "main": "index.js",
+  "description": "biodasturchi's blog",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
@@ -13,7 +12,7 @@
     "vitepress",
     "blog"
   ],
-  "author": "ilosrim <ilosrim@yahoo.com>",
+  "author": "mirjr <mirjr17@outlook.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^17.0.23",

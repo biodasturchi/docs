@@ -1,4 +1,32 @@
 ---
+layout: page
+title: Blog
+sidebar: false
+---
+
+<Blog />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---
 layout: home
 
 # Hero section
@@ -52,4 +80,4 @@ head:
     - rel: icon
       type: image/svg
       href: logo.svg
----
+--- -->

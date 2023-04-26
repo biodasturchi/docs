@@ -8,6 +8,9 @@
     />
   </div>
   <h1>Biodasturchi</h1>
+  
+  ![img](https://img.shields.io/github/checks-status/mirjr/docs/main?style=plastic)
+  
   <p>A blog template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
 </div>
 

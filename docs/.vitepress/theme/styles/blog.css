@@ -1,6 +1,7 @@
 /* .vitepress/theme/custom.css */
 /* Colors Base */
 :root {
+  /* --vp-layout-max-width: 745px; */
   --c-divider-light: #e2e8f0;
   --c-divider-dark: rgba(84, 84, 88, 0.48);
 

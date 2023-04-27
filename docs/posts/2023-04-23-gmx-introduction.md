@@ -89,6 +89,8 @@ sudo make install
 # Ushbu kodni nusxalab .bashrc yoki .bashrc_profile fayliga tashlab qo'ying:
 source /usr/local/gromacs/bin/GMXRC
 ```
+> `tar xfz gromacs-2020.2.tar.gz` kommandasini terayotganingizda siz o'zingiz yuklab olgan gromacs arxiv fayliga o'zgartirasiz
+
 > Ushbu usulda o'rnatish kompyuterning kuchiga qarab 1 soatdan ko'proq vaqt olishi mumkin
 
 

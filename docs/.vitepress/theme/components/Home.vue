@@ -1,5 +1,7 @@
 <template>
   <div class="main-container">
+
+    <!-- post card -->
     <div class="item-container" v-for="(item, index) in posts" :key="index">
       <a :href="withBase(item.regularPath)">
         <div class="item-top">
@@ -28,6 +30,7 @@
         @click="go(i)"
       ></div>
     </div>
+
   </div>
 </template>
 

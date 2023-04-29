@@ -1,11 +1,14 @@
 <template>
   <div class="main-container">
+
     <div class="tags">
       <span @click="toggleTag(key)" v-for="(item, key) in data" class="tag">
         {{ key }} <strong>{{ data[key].length }}</strong>
       </span>
     </div>
+    
     <div class="header">{{ selectTag }}</div>
+
     <a
       :href="withBase(article.regularPath)"
       v-for="(article, index) in data[selectTag]"
@@ -18,6 +21,7 @@
       </div>
       <div class="date">{{ article.frontMatter.date }}</div>
     </a>
+
   </div>
 </template>
 <script lang="ts" setup>
@@ -28,7 +32,7 @@ import { initTags } from "../../utils/blog";
 const { theme } = useData();
 const data = computed(() => initTags(theme.value.posts));
 let selectTag = ref("");
-const toggleTag = (tag: string) => {
+const toggleTag = (tag: any) => {
   selectTag.value = tag;
 };
 </script>

@@ -8,7 +8,7 @@ description: ""
 category: Bio
 tags:
   - biophysics
-  - biochemstry
+  - biochemistry
 ---
 
 # {{ $frontmatter.title }}

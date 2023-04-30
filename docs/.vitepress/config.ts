@@ -117,6 +117,10 @@ function sidebarArticles() {
           link: "/posts/2022-04-13-ai-protein-folding-revolution",
         },
         {
+          text: "- Calcium Channels in the Heart: Disease States and Drugs",
+          link: "/posts/2022-03-10-calsium-channel-in-the-heart",
+        },
+        {
           text: "- DeepMind's AI makes gigantic leap in solving protein structures",
           link: "/posts/2020-11-30-it-will-change-everything",
         },

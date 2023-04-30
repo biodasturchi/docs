@@ -93,10 +93,6 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
-          text: "- Calcium Channels in the Heart: Disease States and Drugs",
-          link: "/posts/2022-03-10-calsium-channel-in-the-heart",
-        },
-        {
           text: "- Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },
@@ -115,6 +111,10 @@ function sidebarArticles() {
         {
           text: "- What's next for AlphaFold and the AI protein-folding revolution",
           link: "/posts/2022-04-13-ai-protein-folding-revolution",
+        },
+        {
+          text: "- Calcium Channels in the Heart: Disease States and Drugs",
+          link: "/posts/2022-03-10-calsium-channel-in-the-heart",
         },
         {
           text: "- DeepMind's AI makes gigantic leap in solving protein structures",

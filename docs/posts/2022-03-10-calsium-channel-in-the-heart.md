@@ -7,10 +7,8 @@ image: https://github.com/ilosrim/imgs/raw/master/bio/2022-03-10/cells-11-00943-
 description: ""
 category: Bio
 tags:
-  - docking
-  - autodock
-  - vina
-  - pymol
+  - biophysics
+  - biochemstry
 ---
 
 # {{ $frontmatter.title }}

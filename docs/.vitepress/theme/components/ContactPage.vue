@@ -3,7 +3,7 @@
 
     <div class="links">
       <font-awesome-icon icon="fa-solid fa-envelope" />
-      <span>E-mail</span> <a href="mailto:mirjr17@outlook.com" target="_blank" rel="noopener noreferrer">mirjr17@outlook.com</a>
+      <span>E-mail</span> <a href="mailto:mirsultonov_m@nuu.uz" target="_blank" rel="noopener noreferrer">mirsultonov_m@nuu.uz</a>
     </div>
 
     <div class="links">

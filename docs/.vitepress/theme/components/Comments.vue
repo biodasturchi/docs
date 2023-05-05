@@ -2,7 +2,7 @@
   <div id="gitalk-container"></div>
 </template>
 <script lang="ts" setup>
-import "gitalk/dist/gitalk.css";
+import "../styles/gitalk.css";
 import Gitalk from "gitalk";
 import { onContentUpdated, useRouter } from "vitepress";
 

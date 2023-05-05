@@ -93,10 +93,6 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
-          text: "- Calcium Channels in the Heart: Disease States and Drugs",
-          link: "/posts/2022-03-10-calsium-channel-in-the-heart",
-        },
-        {
           text: "- Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },

@@ -21,7 +21,7 @@ onContentUpdated(() => {
   const gitalk = new Gitalk({
     clientID: "6d4af1944a0779e8055e",
     clientSecret: "73de915f75906ad6e9d7ff655c075eb70503c457",
-    repo: "docs",
+    repo: "biodasturchi/docs",
     owner: "mirjr",
     admin: ["mirjr"],
     id: location.pathname.substring(0, 50), // Ensure uniqueness and length less than 50

@@ -1,9 +1,10 @@
 ---
 layout: doc
 title: Contact
-lastUpdated: false
 aside: false
 editLink: false
+lastUpdated: false
+showComment: false
 ---
 
 <ContactPage />

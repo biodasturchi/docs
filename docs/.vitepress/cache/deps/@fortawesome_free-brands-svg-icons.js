@@ -1,3 +1,5 @@
+import "./chunk-RSJERJUL.js";
+
 // node_modules/@fortawesome/free-brands-svg-icons/index.mjs
 var prefix = "fab";
 var faMonero = {

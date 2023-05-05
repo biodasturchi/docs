@@ -15,6 +15,7 @@ import ContactPage from "./components/ContactPage.vue";
 
 import "./styles/blog.css";
 import "./styles/layout.css";
+import "./styles/gitalk.css"
 
 library.add(faEnvelope, faLinkedin, faTwitter, faGlobe, faReddit)
 

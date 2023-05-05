@@ -15,6 +15,8 @@
   "author": "mirjr <mirjr17@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "@arco-design/web-vue": "^2.45.3",
+    "@types/blueimp-md5": "^2.18.0",
     "@types/node": "^17.0.23",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
@@ -26,7 +28,7 @@
     "globby": "^11.1.0",
     "gray-matter": "^4.0.3",
     "typescript": "^4.8.3",
-    "vitepress": "^1.0.0-alpha.31",
+    "vitepress": "^1.0.0-alpha.75",
     "vitepress-plugin-search": "^1.0.4-alpha.17",
     "vue": "^3.2.39"
   },
@@ -35,6 +37,8 @@
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
-    "@fortawesome/vue-fontawesome": "^3.0.3"
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "gitalk": "^1.8.0",
+    "jquery": "^3.6.4"
   }
 }

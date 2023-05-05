@@ -10,6 +10,7 @@ import {
   parse$1,
   text
 } from "./chunk-HHAQUBXP.js";
+import "./chunk-RSJERJUL.js";
 
 // node_modules/@fortawesome/vue-fontawesome/index.es.js
 function ownKeys(object, enumerableOnly) {

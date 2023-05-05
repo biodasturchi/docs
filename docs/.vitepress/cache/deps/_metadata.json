@@ -1,36 +1,48 @@
 {
-  "hash": "a192d15d",
-  "browserHash": "78b660bf",
+  "hash": "26ba8db0",
+  "browserHash": "8873c8f2",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "6ca5cf95",
+      "fileHash": "35d49976",
       "needsInterop": false
     },
     "@fortawesome/fontawesome-svg-core": {
       "src": "../../../../node_modules/@fortawesome/fontawesome-svg-core/index.mjs",
       "file": "@fortawesome_fontawesome-svg-core.js",
-      "fileHash": "91436c7d",
+      "fileHash": "c96e320c",
       "needsInterop": false
     },
     "@fortawesome/free-solid-svg-icons": {
       "src": "../../../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
       "file": "@fortawesome_free-solid-svg-icons.js",
-      "fileHash": "17d45b67",
+      "fileHash": "d0920707",
       "needsInterop": false
     },
     "@fortawesome/free-brands-svg-icons": {
       "src": "../../../../node_modules/@fortawesome/free-brands-svg-icons/index.mjs",
       "file": "@fortawesome_free-brands-svg-icons.js",
-      "fileHash": "e0c94e08",
+      "fileHash": "f3b1fe26",
       "needsInterop": false
     },
     "@fortawesome/vue-fontawesome": {
       "src": "../../../../node_modules/@fortawesome/vue-fontawesome/index.es.js",
       "file": "@fortawesome_vue-fontawesome.js",
-      "fileHash": "c4cd09d9",
+      "fileHash": "9081c5ac",
       "needsInterop": false
+    },
+    "blueimp-md5": {
+      "src": "../../../../node_modules/blueimp-md5/js/md5.js",
+      "file": "blueimp-md5.js",
+      "fileHash": "d7bae77f",
+      "needsInterop": true
+    },
+    "gitalk": {
+      "src": "../../../../node_modules/gitalk/dist/gitalk.js",
+      "file": "gitalk.js",
+      "fileHash": "5f62f073",
+      "needsInterop": true
     }
   },
   "chunks": {
@@ -39,6 +51,9 @@
     },
     "chunk-HHAQUBXP": {
       "file": "chunk-HHAQUBXP.js"
+    },
+    "chunk-RSJERJUL": {
+      "file": "chunk-RSJERJUL.js"
     }
   }
 }

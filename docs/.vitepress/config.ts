@@ -93,6 +93,10 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
+          text: "- Use Gitalk in Vitepress",
+          link: "/posts/2023-05-06-use-gitalk-in-vitepress",
+        },
+        {
           text: "- Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },

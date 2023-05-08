@@ -11,7 +11,7 @@
   
   ![img](https://img.shields.io/github/checks-status/mirjr/docs/main?style=plastic)
   
-  <p>A blog template built using <a href="https://vitepress.vuejs.org">VitePress</a></p>
+  <p>A blog template built using <a href="https://vitepress.dev/">VitePress</a></p>
 </div>
 
 ## Run project locally

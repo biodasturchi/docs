@@ -177,7 +177,7 @@ const transDate = (date: string) => {
   height: 2rem;
   line-height: 2rem;
   text-align: center;
-  border: 1px solid #282936;
+  /* border: 1px solid #282936; */
   cursor: pointer;
   transition: 0.2s;
   border-radius: 2px;

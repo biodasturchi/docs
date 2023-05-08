@@ -4,7 +4,7 @@ author: Mirsoli Mirsultonov
 date: 2023-05-06
 subDate: 2023/05/06
 image: https://user-images.githubusercontent.com/62628408/201538130-a1008969-06ae-4aad-9ea0-b77384d6bac1.png
-description: ""
+description: "Adding and using the Gitalk package in our own application"
 category: Dev
 tags:
   - vitepress
@@ -13,6 +13,8 @@ tags:
 ---
 
 # {{ $frontmatter.title }}
+
+{{ $frontmatter.description }}
 
 ## 1. [Register a new OAuth application](https://github.com/settings/applications/new)
 - Aplication name: xxx

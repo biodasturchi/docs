@@ -93,7 +93,7 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
-          text: "- Gromacs'ni o'rnatish va dastlabki model sistemani qurish",
+          text: "- Gromacs'ni docking va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },
         {

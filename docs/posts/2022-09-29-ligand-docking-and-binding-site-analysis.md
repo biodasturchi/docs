@@ -3,7 +3,7 @@ title: Ligand docking and binding site analysis with pymol and autodock/vina
 author: Mirsoli Mirsultonov
 date: 2022-09-29
 subDate: 2022/09/29
-image: https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png
+image: https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/pymol2.png
 description: Docking of various therapeutically important chemical entities to the specific target sites...
 category: Bio
 tags:
@@ -19,7 +19,7 @@ tags:
 
 _[ {{ $frontmatter.author }} ](mailto:mirjr17@outlook.com)_ | {{ $frontmatter.subDate}}
 
-![banner](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
+![banner](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/pymol2.png)
 
 ## Abstract
 
@@ -60,11 +60,11 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
 - 2.1 Retrieval of required protein files from major databases.
 
   - 2.1 1. (a) Retrieving protein.pdb files from major protein databases using following link. [https://www.rcsb.org/](https://www.rcsb.org/)
-    ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pdbhome.png)
+    ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/pdbhome.png)
     <sup>Fig. 1: Screenshot Showing the Home Page of the PDB (Protein Data Bank) on Computer Screen</sup>
 
     Enter the name of Protein or enzyme that will be used for docking studies (For example, Beta-Glucosidase or its pdb id 2ZOX).
-    ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/2zox.png)
+    ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/2zox.png)
     <sup>Fig. 2: RCSB Protein Data Bank Page Showing the Selection of Protein.</sup>
 
     Select ‘Download file from drop down list’.
@@ -74,26 +74,26 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
     Now, to cross check whether all the heteroatoms of chain A and B chain have been deleted, one can take help of the
     software discovery studio visualizer 3.5 (which can be downloaded freely from the given link. https://discover.3ds.com/discovery-studio-visualizer-download
 
-    ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/dsv.png)
+    ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/dsv.png)
     <sup>Fig. 3: Screenshot of the Screen to Show Absence of Heteroatoms</sup>
 
 - 2.2. Retrieval of ligand molecules from different ligand databases: http://pubchem.ncbi.nlm.nih.gov/ or http://www.drugbank.ca/
   The above links can be used to select desired ligand/drug molecules. Alternatively, the structure of the ligand molecules
   can be drawn with the help of software available like chemdraw. However, it will be more convenient to download the
   file from the databank.
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pubchem-rutin.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/pubchem-rutin.png)
   <sup>Fig. 4: Showing Pubchem Home Page of Searched Molecules</sup>
 
   Click on 3D image and save 3D Sdf.
   Open it using discovery studio visualizer and save it as a protein data bank file.(pdb file) because the autodock software
   can only recognize files in pdb format.
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/sdf.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/sdf.png)
   <sup>Fig. 5: Shows the 3D SDF File in 3D Conformation.</sup>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/dsv-lig.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/dsv-lig.png)
   <sup>Fig. 6: Shows the SDF File in Discovery Studio Visualizer.</sup>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/dsv-save-pdb.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/dsv-save-pdb.png)
   <sup>Fig. 7: Shows the Saving of Ligand File as Pdb in DSV</sup>
 
 - 2.3. To prepare PDBQT format for target and ligand (protein.pdbqt,Ligand.pdbqt).
@@ -106,41 +106,41 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   Click to edit Hydrogen and select polar only.
   Edit again to compute charges to select kollmann charges.
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-protein.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-protein.png)
   <sup>Fig. 8: Showing Editing of H-Bonds.</sup>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-protein-add-hydrogen.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-protein-add-hydrogen.png)
   <sup>Fig. 9: Showing Editing of H Atoms Polar Only.</sup>
 
   Now click on the grid to choose macrolmolecule, prepare grid box and cover whole molecule in order to prepare it for
   ligand binding (blind docking as one doesn’t know the actual binding site so in order to know the binding site we will
   cover up the whole molecule).
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-gridbox.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-gridbox.png)
   <sup>Fig. 9: Shows the Grid Box Over the Molecule to Prepare It for Docking.</sup>
 
   Now close it as ‘close saving current’.
   3(B). Preparing PDBQT file for ligand
   Open the file select ligand and then go to torsion tree to detect the root.
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-lig-root.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-lig-root.png)
   <sup>Fig. 10: Shows Detection of Root.</sup>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-lig-added-root.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-lig-added-root.png)
   <sup>Fig. 11: Shows Root of the Ligand.</sup>
 
   Now select ligand once more to detect torsion tree and to select number of torsions (that would be left to default) and
   save the output as glucose6-phosphate.pdbqt.
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-torsion-tree.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-torsion-tree.png)
   <sup>Fig. 12: Shows the Torsion Tree.</sup>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/ad-output-lig.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/ad-output-lig.png)
   <sup>Fig. 13: Show the Saving of File.</sup>
 
   Now prepare a text file providing all the details about the pdbqt files of protein and its ligand and grid box details.
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/vina-config-file.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/vina-config-file.png)
 
   Copy the text file and pdbqt files of both the molecules prepared in the folder where the Vina is installed in the C drive.
 
@@ -153,21 +153,21 @@ method was substantiated by taking example of molecular docking of Glucose 6 pho
   (cd)cd ………………….(address)vina>vina.vina.exe -- config conf.txt --
   log log.txt
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/vina-running.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/vina-running.png)
   <sup>Fig. 15: Showing the Path and Command to Auto-Dock Vina.</sup>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/vina-res.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/vina-res.png)
   <sup>Fig. 16: Show the Docking Results Obtained by Vina.</sup>
 
 - 2.5. Analysis of molecular docking with pymol visualizer to have information about the
   various conformations of the ligand on the protein.
   <p>A</p>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol1.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/pymol1.png)
 
   <p>B</p>
 
-  ![image](https://raw.githubusercontent.com/ilosrim/imgs/master/bio/2022-11-29/pymol2.png)
+  ![image](https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2022-11-29/pymol2.png)
 
   <p>C</p>
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/_L-sd8SmTfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

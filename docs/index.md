@@ -66,7 +66,7 @@ head:
       content: Biodasturchi
   - - meta
     - property: og:image
-      content: https://raw.githubusercontent.com/ilosrim/imgs/master/web_logo/logo.png
+      content: https://raw.githubusercontent.com/biodasturchi/imgs/master/web_logo/logo.png
   - - meta
     - property: og:url
       content: https://vitejs.dev/blog/announcing-vite3
@@ -75,7 +75,7 @@ head:
       content: Biodasturchi
   - - meta
     - name: twitter:card
-      content: https://raw.githubusercontent.com/ilosrim/imgs/master/web_logo/logo.png
+      content: https://raw.githubusercontent.com/biodasturchi/imgs/master/web_logo/logo.png
   - - link
     - rel: icon
       type: image/svg

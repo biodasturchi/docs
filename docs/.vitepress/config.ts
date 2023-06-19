@@ -93,6 +93,10 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
+          text: "- L-tipli Ca1.1 va Ca 1.3 kanallariga ligand moddalarning biriktirilishi",
+          link: "/posts/2023-06-13-autodock-and-vina-calsium-channel",
+        },
+        {
           text: "- Gromacs'ni docking va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },

@@ -4,7 +4,7 @@ author: Mirsoli Mirsultonov
 date: 2023-04-24
 subDate: 2023/04/24
 image: https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2023-04-24/gromacs.png
-description: Ushbu maqola orqali gromacs dasturini GPU'li yoki GPU'siz docking hamda dastlabki model sistemamizni qurish haqida ma'lumotga ega bo'lasiz
+description: Ushbu maqola orqali gromacs dasturini GPU'li yoki GPU'siz o'rnatish hamda dastlabki model sistemamizni qurish haqida ma'lumotga ega bo'lasiz
 category: Bio
 tags:
   - gromacs

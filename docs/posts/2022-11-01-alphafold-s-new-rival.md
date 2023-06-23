@@ -83,9 +83,12 @@ _[doi: https://doi.org/10.1038/d41586-022-03539-1](https://doi.org/10.1038/d4158
 
 ## References
 
-1. Lin, Z. et al. Preprint at bioRxiv [link](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2) (2022).
-2. Lin, Z. et al. Preprint at bioRxiv [link](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1) (2022).
-3. Weissenow, K., Heinzinger, M. & Rost, B. Structure 30, 1169–1177 (2022).
-   **[Article](https://doi.org/10.1016%2Fj.str.2022.05.001)** | **[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35609601)** | **[Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Structure&doi=10.1016%2Fj.str.2022.05.001&volume=30&pages=1169-1177&publication_year=2022&author=Weissenow%2CK.&author=Heinzinger%2CM.&author=Rost%2CB.)**
+1. Lin, Z. et al. Preprint at bioRxiv 
+  https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2 (2022).
+
+2. Lin, Z. et al. Preprint at bioRxiv 
+  https://www.biorxiv.org/content/10.1101/2022.07.20.500902v1 (2022).
+
+3. Weissenow, K., Heinzinger, M. & Rost, B. Structure 30, 1169–1177 (2022). **[Article](https://doi.org/10.1016%2Fj.str.2022.05.001)** | **[PubMed](http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=35609601)** | **[Google Scholar](http://scholar.google.com/scholar_lookup?&title=&journal=Structure&doi=10.1016%2Fj.str.2022.05.001&volume=30&pages=1169-1177&publication_year=2022&author=Weissenow%2CK.&author=Heinzinger%2CM.&author=Rost%2CB.)**
 
 **[Download references ⬇️](https://citation-needed.springer.com/v2/references/10.1038/d41586-022-03539-1?format=refman&flavour=references)**

@@ -71,7 +71,7 @@ Tweaking the most successful molecules could create more effective versions, de 
 
 Euan Ashley, a genomics and precision-health expert at Stanford University in California, is excited to see a new approach in the understudied field of antibiotic development. De la Fuente and his colleagues “persuaded me that diving into the archaic human genome was an interesting and potentially useful approach”.
 
-_doi: https://doi.org/10.1038/d41586-023-02403-0_
+_[doi: https://doi.org/10.1038/d41586-023-02403-0](https://doi.org/10.1038/d41586-023-02403-0)_
 
 ## References
 

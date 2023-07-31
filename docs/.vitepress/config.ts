@@ -93,6 +93,10 @@ function sidebarArticles() {
       collapsed: true,
       items: [
         {
+          text: "- AI search of Neanderthal proteins resurrects 'extinct' antibiotics",
+          link: "/posts/2023-06-28-ai-search-of-Neanderthal-proteins-resurrects-extinct-antibiotics",
+        },
+        {
           text: "- L-tipli Ca1.1 va Ca 1.3 kanallariga ligand moddalarning biriktirilishi",
           link: "/posts/2023-06-13-autodock-and-vina-calsium-channel",
         },

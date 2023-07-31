@@ -21,7 +21,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-022-00997-5#author-0)_ | {{ $frontmatter.subDate}}
+_[{{ $frontmatter.author }}](https://www.nature.com/search?author=Ewen+Callaway)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://media.nature.com/w1248/magazine-assets/d41586-022-00997-5/d41586-022-00997-5_20300292.gif?as=webp)
 _A top-down view of the human nuclear pore complex, the largest molecular machine in human cells. Credit: Agnieszka Obarska-Kosinska_

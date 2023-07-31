@@ -21,7 +21,7 @@ tags:
 
 {{ $frontmatter.description }}
 
-_[{{ $frontmatter.author }}](https://www.nature.com/articles/d41586-020-03348-4#author-0)_ | {{ $frontmatter.subDate}}
+_[{{ $frontmatter.author }}](https://www.nature.com/search?author=Ewen+Callaway)_ | {{ $frontmatter.subDate}}
 
 ![banner](https://media.nature.com/lw767/magazine-assets/d41586-020-03348-4/d41586-020-03348-4_18633160.jpg?as=webp)
 _A protein’s function is determined by its 3D shape.Credit: DeepMind_

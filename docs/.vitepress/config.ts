@@ -101,7 +101,7 @@ function sidebarArticles() {
           link: "/posts/2023-06-13-autodock-and-vina-calsium-channel",
         },
         {
-          text: "- Gromacs'ni docking va dastlabki model sistemani qurish",
+          text: "- Gromacs-ni o'rnatish va dastlabki model sistemani qurish",
           link: "/posts/2023-04-23-gmx-introduction",
         },
         {

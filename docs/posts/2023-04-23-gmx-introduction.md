@@ -1,10 +1,10 @@
 ---
-title: Gromacs'ni docking va dastlabki model sistemani qurish
+title: Gromacs-da docking va dastlabki model sistemani qurish
 author: Mirsoli Mirsultonov
 date: 2023-04-24
 subDate: 2023/04/24
 image: https://raw.githubusercontent.com/biodasturchi/imgs/master/bio/2023-04-24/gromacs.png
-description: Ushbu maqola orqali gromacs dasturini GPU'li yoki GPU'siz o'rnatish hamda dastlabki model sistemamizni qurish haqida ma'lumotga ega bo'lasiz
+description: Ushbu maqola orqali gromacs dasturini GPU-li yoki GPU-siz o'rnatish hamda dastlabki model sistemamizni qurish haqida ma'lumotga ega bo'lasiz
 category: Bio
 tags:
   - gromacs
@@ -51,23 +51,23 @@ GROMACS zamonaviy molekulyar dinamikani amalga oshirishdan kutgan barcha odatiy 
 
 GROMACS - bu to'g'ri nom. Bu hech narsaning qisqartmasi emas.
 
-## GROMACS'ni GPU'siz docking
+## GROMACS-ni GPU-siz o'rnatish
 
-Grmocas faqat  `Linux` va `MacOS` operatsion sistemalarida ishlaydi. Ushbu maqolada GROMACS'ni dockingni linux distributivi bo'lmish `Ubuntu`ning `22.04` versiyasidan foydalanamiz.
+Grmocas faqat  `Linux` va `MacOS` operatsion sistemalarida ishlaydi. Ushbu maqolada GROMACS-ni o'rnatishda linux distributivi bo'lmish `Ubuntu`ning `22.04` versiyasidan foydalanamiz.
 
 1. Avval paketlarni yangilab olamiz
 ```bash
 sudo apt update && sudo apt upgrade
 ```
 
-2. Endi GROMACS'ni o'rnatamiz
+2. Endi GROMACS-ni o'rnatamiz
 ```bash
 sudo apt install gromacs
 ```
 
-> Ushbu usulda GROMACS' dasturini docking oson, lekin uning ishlash samaradorligi juda ham kam
+> Ushbu usulda GROMACS dasturini o'rnatish oson, lekin uning ishlash samaradorligi juda ham kam
 
-## GROMACS'ni GPU'li docking
+## GROMACS-ni GPU-li o'rnatish
 
 1. Avval ushbu saytdan bizga kerak bo'lgan GMX dasturini yuklab olamiz: https://manual.gromacs.org/current/download.html
 
@@ -75,7 +75,7 @@ sudo apt install gromacs
   
     Saytda ko'rsatilgan ko'dlarni nusxalab terminalingizga tashlang va ishlating
 
-3. Endi Gromacs kompilyatsiya jarayoni boshlaymiz, quyidagi kodlarni birma-bir nusxalab terminalingizda ishlating:
+3. Endi Gromacs kompilyatsiya jarayonini boshlaymiz, quyidagi kodlarni birma-bir nusxalab terminalingizda ishlating:
 ```bash
 tar xfz gromacs-2020.2.tar.gz
 cd gromacs-2020.2
@@ -91,7 +91,7 @@ source /usr/local/gromacs/bin/GMXRC
 ```
 > `tar xfz gromacs-2020.2.tar.gz` kommandasini terayotganingizda siz o'zingiz yuklab olgan gromacs arxiv fayliga o'zgartirasiz
 
-> Ushbu usulda docking kompyuterning kuchiga qarab 1 soatdan ko'proq vaqt olishi mumkin
+> Ushbu usulda o'rnatish kompyuterning kuchiga qarab 1 soatdan ko'proq vaqt olishi mumkin
 
 
 ## `pdb2gmx` modulini ishlatish
